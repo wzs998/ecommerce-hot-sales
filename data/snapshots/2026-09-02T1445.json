@@ -9,8 +9,9 @@
       "title": "无线蓝牙耳机 新升级降噪版",
       "price": "¥79",
       "image": "data/img/np-tb-1.jpg",
-      "sales": 3,
-      "rank": 30
+      "sales": 2,
+      "rank": 60,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%97%A0%E7%BA%BF%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA%20%E9%99%8D%E5%99%AA"
     },
     {
       "id": "np-tb-2",
@@ -20,7 +21,8 @@
       "price": "¥49",
       "image": "data/img/np-tb-2.jpg",
       "sales": 0,
-      "rank": 55
+      "rank": 42,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%A1%8C%E9%9D%A2%E5%8A%A0%E6%B9%BF%E5%99%A8%20%E9%9D%99%E9%9F%B3"
     },
     {
       "id": "np-tb-3",
@@ -30,47 +32,228 @@
       "price": "¥69",
       "image": "data/img/np-tb-3.jpg",
       "sales": 0,
-      "rank": 30
+      "rank": 44,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E4%BE%BF%E6%90%BA%E6%A6%A8%E6%B1%81%E6%9D%AF"
     },
     {
-      "id": "ex-tb-1",
+      "id": "np-tb-5",
       "platform": "tb",
       "platform_label": "淘宝",
-      "title": "优衣库 U系列 圆领纯棉T恤",
-      "price": "¥79",
-      "image": "data/img/tb-1.jpg",
-      "sales": 5000,
-      "rank": 2
+      "title": "智能体重秤 体脂测量",
+      "price": "¥59",
+      "image": "data/img/np-tb-5.jpg",
+      "sales": 58,
+      "rank": 55,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%99%BA%E8%83%BD%E4%BD%93%E8%84%82%E7%A7%A4"
     },
     {
-      "id": "ex-tb-2",
+      "id": "np-tb-6",
       "platform": "tb",
       "platform_label": "淘宝",
-      "title": "三只松鼠 每日坚果 30包",
+      "title": "挂烫机 手持便携",
       "price": "¥89",
-      "image": "data/img/tb-3.jpg",
-      "sales": 3200,
-      "rank": 4
+      "image": "data/img/np-tb-6.jpg",
+      "sales": 7,
+      "rank": 56,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%89%8B%E6%8C%81%E6%8C%82%E7%83%AB%E6%9C%BA"
     },
     {
-      "id": "ex-tb-3",
+      "id": "np-tb-7",
       "platform": "tb",
       "platform_label": "淘宝",
-      "title": "欧莱雅 玻尿酸精华 安瓶",
-      "price": "¥259",
-      "image": "data/img/tb-5.jpg",
-      "sales": 2800,
-      "rank": 7
+      "title": "蓝牙键盘 超薄静音",
+      "price": "¥99",
+      "image": "data/img/np-tb-7.jpg",
+      "sales": 0,
+      "rank": 61,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%B6%85%E8%96%84%E8%93%9D%E7%89%99%E9%94%AE%E7%9B%98"
     },
     {
-      "id": "ex-tb-4",
+      "id": "np-tb-12",
       "platform": "tb",
       "platform_label": "淘宝",
-      "title": "蕉下 冰丝防晒衣 UPF50+",
-      "price": "¥199",
-      "image": "data/img/tb-4.jpg",
-      "sales": 2600,
-      "rank": 9
+      "title": "真空保鲜盒 自动抽真空",
+      "price": "¥89",
+      "image": "data/img/np-tb-12.jpg",
+      "sales": 0,
+      "rank": 62,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%9C%9F%E7%A9%BA%E4%BF%9D%E9%B2%9C%E7%9B%92"
+    },
+    {
+      "id": "np-tb-13",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "电动打蛋器 烘焙家用",
+      "price": "¥69",
+      "image": "data/img/np-tb-13.jpg",
+      "sales": 0,
+      "rank": 47,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B5%E5%8A%A8%E6%89%93%E8%9B%8B%E5%99%A8"
+    },
+    {
+      "id": "np-tb-18",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "眼部按摩仪 热敷",
+      "price": "¥159",
+      "image": "data/img/np-tb-18.jpg",
+      "sales": 0,
+      "rank": 100,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%9C%BC%E9%83%A8%E6%8C%89%E6%91%A9%E4%BB%AA%20%E7%83%AD%E6%95%B7"
+    },
+    {
+      "id": "np-tb-23",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "桌面收纳盒 文具",
+      "price": "¥25.9",
+      "image": "data/img/np-tb-23.jpg",
+      "sales": 0,
+      "rank": 46,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%A1%8C%E9%9D%A2%E6%96%87%E5%85%B7%E6%94%B6%E7%BA%B3%E7%9B%92"
+    },
+    {
+      "id": "np-tb-24",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "空气炸锅纸 100张",
+      "price": "¥15.9",
+      "image": "data/img/np-tb-24.jpg",
+      "sales": 0,
+      "rank": 68,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%BA%B8"
+    },
+    {
+      "id": "np-pdd-3",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "车载手机支架 出风口",
+      "price": "¥15.9",
+      "image": "data/img/np-pdd-3.jpg",
+      "sales": 46,
+      "rank": 37,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BD%A6%E8%BD%BD%E6%89%8B%E6%9C%BA%E6%94%AF%E6%9E%B6%20%E5%87%BA%E9%A3%8E%E5%8F%A3"
+    },
+    {
+      "id": "np-pdd-4",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "厨房计时器 磁吸",
+      "price": "¥12.9",
+      "image": "data/img/np-pdd-4.jpg",
+      "sales": 0,
+      "rank": 44,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%8E%A8%E6%88%BF%E8%AE%A1%E6%97%B6%E5%99%A8"
+    },
+    {
+      "id": "np-pdd-5",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "蒜蓉神器 手动切蒜",
+      "price": "¥9.9",
+      "image": "data/img/np-pdd-5.jpg",
+      "sales": 0,
+      "rank": 47,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%89%8B%E5%8A%A8%E5%88%87%E8%92%9C%E5%99%A8"
+    },
+    {
+      "id": "np-pdd-10",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "懒人抹布 一次性",
+      "price": "¥14.9",
+      "image": "data/img/np-pdd-10.jpg",
+      "sales": 0,
+      "rank": 44,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E4%B8%80%E6%AC%A1%E6%80%A7%E6%87%92%E4%BA%BA%E6%8A%B9%E5%B8%83"
+    },
+    {
+      "id": "np-pdd-11",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "手机防水袋 游泳",
+      "price": "¥8.9",
+      "image": "data/img/np-pdd-11.jpg",
+      "sales": 0,
+      "rank": 48,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%89%8B%E6%9C%BA%E9%98%B2%E6%B0%B4%E8%A2%8B"
+    },
+    {
+      "id": "np-pdd-16",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "电子秤 厨房精准",
+      "price": "¥22.9",
+      "image": "data/img/np-pdd-16.jpg",
+      "sales": 0,
+      "rank": 57,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%8E%A8%E6%88%BF%E7%94%B5%E5%AD%90%E7%A7%A4%20%E7%B2%BE%E5%87%86"
+    },
+    {
+      "id": "np-pdd-21",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "钥匙收纳架 免打孔",
+      "price": "¥9.9",
+      "image": "data/img/np-pdd-21.jpg",
+      "sales": 0,
+      "rank": 84,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%92%A5%E5%8C%99%E6%94%B6%E7%BA%B3%E6%9E%B6"
+    },
+    {
+      "id": "np-pdd-22",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "分装瓶 旅行套装",
+      "price": "¥12.9",
+      "image": "data/img/np-pdd-22.jpg",
+      "sales": 0,
+      "rank": 62,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%97%85%E8%A1%8C%E5%88%86%E8%A3%85%E7%93%B6"
+    },
+    {
+      "id": "np-jd-1",
+      "platform": "jd",
+      "platform_label": "京东",
+      "title": "智能门锁 指纹人脸",
+      "price": "¥899",
+      "image": "data/img/np-jd-1.jpg",
+      "sales": 0,
+      "rank": 209,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%99%BA%E8%83%BD%E9%97%A8%E9%94%81%20%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB"
+    },
+    {
+      "id": "np-jd-2",
+      "platform": "jd",
+      "platform_label": "京东",
+      "title": "机械键盘 客制化轴体",
+      "price": "¥299",
+      "image": "data/img/np-jd-2.jpg",
+      "sales": 0,
+      "rank": 42,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%AE%A2%E5%88%B6%E5%8C%96%E6%9C%BA%E6%A2%B0%E9%94%AE%E7%9B%98"
+    },
+    {
+      "id": "np-jd-3",
+      "platform": "jd",
+      "platform_label": "京东",
+      "title": "显示器支架 升降",
+      "price": "¥159",
+      "image": "data/img/np-jd-3.jpg",
+      "sales": 0,
+      "rank": 51,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%98%BE%E7%A4%BA%E5%99%A8%E6%94%AF%E6%9E%B6%20%E5%8D%87%E9%99%8D"
+    },
+    {
+      "id": "np-jd-8",
+      "platform": "jd",
+      "platform_label": "京东",
+      "title": "智能音箱 带屏",
+      "price": "¥449",
+      "image": "data/img/np-jd-8.jpg",
+      "sales": 0,
+      "rank": 97,
+      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%B8%A6%E5%B1%8F%E6%99%BA%E8%83%BD%E9%9F%B3%E7%AE%B1"
     }
   ]
 }

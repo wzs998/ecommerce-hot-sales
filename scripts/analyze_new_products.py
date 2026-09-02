@@ -116,6 +116,7 @@ def main() -> int:
             "title": last.get("title", ""),
             "price": last.get("price", ""),
             "image": last.get("image", ""),
+            "ali1688_url": last.get("ali1688_url", ""),
             "first_seen": fmt_ts(first_seen),
             "listed_minutes": listed_minutes,
             "broke_zero": broke_zero,

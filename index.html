@@ -75,6 +75,7 @@
         <span class="ml-auto text-gray-400">按「30分钟破0 / 起量快 / 排名蹿升」信号打分的潜力新品</span>
       </div>
 
+      <div id="newFilterBar" class="flex flex-wrap gap-2 mb-4"></div>
       <div id="newSkeleton" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4"><!-- JS 填充 --></div>
       <div id="newGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 hidden"></div>
 
@@ -100,7 +101,7 @@ const PLATFORMS = [
 ];
 const PLATFORM_MAP = Object.fromEntries(PLATFORMS.map(p=>[p.key,p]));
 
-const state = { data:null, newData:null, platform:'all', sort:'rank', view:'hot' };
+const state = { data:null, newData:null, platform:'all', sort:'rank', view:'hot', newPlatform:'all' };
 
 // ---------- 视图切换 ----------
 function switchView(v){
@@ -279,6 +280,8 @@ function newCard(it){
         <div class="text-red-600 font-bold">${it.price}</div>
         <div class="text-[10px] text-gray-400">${it.sales_per_hour}单/时</div>
       </div>
+      <a href="${it.ali1688_url||'#'}" target="_blank" rel="noopener noreferrer"
+         class="mt-2 block text-center text-xs font-medium py-1.5 rounded-lg border border-blue-200 bg-blue-50 text-blue-600 hover:bg-blue-100 hover:border-blue-300 transition">🏭 1688同款 ↗</a>
     </div>
   </div>`;
 }
@@ -300,6 +303,21 @@ async function loadNew(force=false){
   }
 }
 
+function renderNewFilter(){
+  const d = state.newData;
+  const present = [];
+  (d?.items||[]).forEach(it=>{ if(!present.includes(it.platform)) present.push(it.platform); });
+  const opts = [{key:'all',label:'全部'}].concat(
+    present.map(k=>PLATFORMS.find(p=>p.key===k)).filter(Boolean).map(p=>({key:p.key,label:p.label,color:p.color}))
+  );
+  document.getElementById('newFilterBar').innerHTML = opts.map(p=>{
+    const active = state.newPlatform===p.key;
+    return `<button onclick="state.newPlatform='${p.key}';renderNewFilter();renderNew()"
+      class="px-3 py-1.5 rounded-full text-sm font-medium transition border
+      ${active?'text-white border-transparent shadow':'bg-white text-gray-600 border-gray-200 hover:border-gray-400'}"
+      style="${active&&p.color?`background:${p.color}`:''}">${p.label}</button>`;
+  }).join('');
+}
 function renderNew(){
   hideSkeleton('newSkeleton');
   const d = state.newData;
@@ -311,7 +329,10 @@ function renderNew(){
   document.getElementById('newSnapshots').textContent = d.snapshots_count||0;
   document.getElementById('newCandidates').textContent = d.candidates_count||d.items.length;
   document.getElementById('newBroke').textContent = broke;
-  grid.innerHTML = d.items.map(newCard).join('');
+  renderNewFilter();
+  let items = d.items;
+  if(state.newPlatform!=='all') items = items.filter(it=>it.platform===state.newPlatform);
+  grid.innerHTML = items.map(newCard).join('');
   grid.classList.remove('hidden');
   document.getElementById('newEmpty').classList.add('hidden');
 }
