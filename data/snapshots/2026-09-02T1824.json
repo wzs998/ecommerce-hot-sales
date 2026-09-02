@@ -1,0 +1,106 @@
+{
+  "scraped_at": "2026-09-02T18:24:35+0800",
+  "source": "mock",
+  "items": [
+    {
+      "id": "np-tb-1",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "无线蓝牙耳机 新升级降噪版",
+      "price": "¥79",
+      "image": "data/img/np-tb-1.jpg",
+      "sales": 320,
+      "rank": 8
+    },
+    {
+      "id": "np-tb-2",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "桌面迷你加湿器 静音款",
+      "price": "¥49",
+      "image": "data/img/np-tb-2.jpg",
+      "sales": 180,
+      "rank": 20
+    },
+    {
+      "id": "np-tb-3",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "便携榨汁杯 USB充电",
+      "price": "¥69",
+      "image": "data/img/np-tb-3.jpg",
+      "sales": 95,
+      "rank": 15
+    },
+    {
+      "id": "np-tb-4",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "宠物自动喂食器 定时定量",
+      "price": "¥129",
+      "image": "data/img/np-tb-4.jpg",
+      "sales": 0,
+      "rank": 55
+    },
+    {
+      "id": "np-pdd-1",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "挂脖风扇 无叶设计",
+      "price": "¥39",
+      "image": "data/img/np-pdd-1.jpg",
+      "sales": 45,
+      "rank": 50
+    },
+    {
+      "id": "np-pdd-2",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "便携咖啡机 手压浓缩",
+      "price": "¥199",
+      "image": "data/img/np-pdd-2.jpg",
+      "sales": 0,
+      "rank": 190
+    },
+    {
+      "id": "ex-tb-1",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "优衣库 U系列 圆领纯棉T恤",
+      "price": "¥79",
+      "image": "data/img/tb-1.jpg",
+      "sales": 5000,
+      "rank": 2
+    },
+    {
+      "id": "ex-tb-2",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "三只松鼠 每日坚果 30包",
+      "price": "¥89",
+      "image": "data/img/tb-3.jpg",
+      "sales": 3200,
+      "rank": 4
+    },
+    {
+      "id": "ex-tb-3",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "欧莱雅 玻尿酸精华 安瓶",
+      "price": "¥259",
+      "image": "data/img/tb-5.jpg",
+      "sales": 2800,
+      "rank": 7
+    },
+    {
+      "id": "ex-tb-4",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "蕉下 冰丝防晒衣 UPF50+",
+      "price": "¥199",
+      "image": "data/img/tb-4.jpg",
+      "sales": 2600,
+      "rank": 9
+    }
+  ]
+}
