@@ -195,22 +195,30 @@ def snapshot_filename(ts: datetime) -> str:
     return f"{ts.strftime('%Y-%m-%dT%H%M')}.json"
 
 
+def regenerate(window_hours: float = 2.0, out_dir=None) -> list:
+    """重建规范快照序列（先清空旧快照，保证窗口干净、可复现）。"""
+    out_dir = Path(out_dir) if out_dir else SNAP_DIR
+    out_dir.mkdir(parents=True, exist_ok=True)
+    # 清空旧快照，避免历史堆积导致窗口被拉长、新品被判"过老"
+    for f in out_dir.glob("*.json"):
+        f.unlink()
+    total_min = int(window_hours * 60)
+    offsets = list(range(0, total_min + 1, SNAP_INTERVAL_MIN))
+    for off in offsets:
+        snap = build_snapshot(off)
+        path = out_dir / snapshot_filename(BASE_TIME + timedelta(minutes=off))
+        path.write_text(json.dumps(snap, ensure_ascii=False, indent=2), encoding="utf-8")
+    return offsets
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="生成模拟新品监控快照序列")
     parser.add_argument("--window-hours", type=float, default=2.0, help="监控时长（小时）")
     parser.add_argument("--out-dir", default=None)
     args = parser.parse_args()
 
-    total_min = int(args.window_hours * 60)
-    out_dir = Path(args.out_dir) if args.out_dir else SNAP_DIR
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    offsets = list(range(0, total_min + 1, SNAP_INTERVAL_MIN))
-    for off in offsets:
-        snap = build_snapshot(off)
-        path = out_dir / snapshot_filename(BASE_TIME + timedelta(minutes=off))
-        path.write_text(json.dumps(snap, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[mock_snapshots] 已生成 {len(offsets)} 条快照 -> {out_dir}/")
+    offsets = regenerate(args.window_hours, args.out_dir)
+    print(f"[mock_snapshots] 已重建 {len(offsets)} 条快照（清空旧快照）-> {SNAP_DIR}/")
     print(f"[mock_snapshots] 新品 {len(PRODUCTS)} 款，均带 1688 同款链接")
     return 0
 

@@ -2,10 +2,8 @@
 """新品快照采集脚本（供 GitHub Actions 每 15 分钟调用）。
 
 设计：
-  - 每次运行生成一条带时间戳的快照，写入 data/snapshots/
   - 先尝试真实数据源（公开"新品"频道）；多数平台需登录/风控，抓不到时
-    自动回退到模拟数据（基于 mock_snapshots 的轨迹，按当前时间滚动），
-    保证流程不断、Demo 可复现。
+    自动回退到模拟数据（重建规范快照序列，保证窗口稳定、可复现）；
   - 差分分析与打分由 analyze_new_products.py 完成。
 
 用法：
@@ -15,15 +13,12 @@
 import argparse
 import json
 import sys
-import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-
 import requests  # noqa: E402
-
-from mock_snapshots import BASE_TIME, PRODUCTS, build_snapshot  # noqa: E402
+from mock_snapshots import BASE_TIME, regenerate  # noqa: E402
 
 CST = timezone(timedelta(hours=8))
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -40,14 +35,14 @@ LIVE_SOURCES = {
 
 
 def mock_snapshot_for_now() -> dict:
-    """基于当前时间生成一条模拟快照（滚动模拟新品发布过程）。"""
-    now = datetime.now(CST)
-    minutes = int((now - BASE_TIME).total_seconds() // 60)
-    offset = max(0, min(120, minutes))  # 落在演示窗口内
-    snap = build_snapshot(offset)
-    snap["scraped_at"] = now.strftime("%Y-%m-%dT%H:%M:%S%z")
-    snap["source"] = "mock"
-    return snap
+    """回退模拟：重建规范快照序列（清空旧快照），保证窗口稳定、可复现。
+    真实采集接入后，此分支不再被调用。"""
+    regenerate(2.0)  # 重建 14:00~16:00 共 9 条快照
+    return {
+        "scraped_at": datetime.now(CST).strftime("%Y-%m-%dT%H:%M:%S%z"),
+        "source": "mock",
+        "items": [],
+    }
 
 
 def try_live() -> dict | None:
@@ -76,11 +71,15 @@ def main() -> int:
     if snap is None:
         snap = mock_snapshot_for_now()
 
-    SNAP_DIR.mkdir(parents=True, exist_ok=True)
-    ts = datetime.strptime(snap["scraped_at"][:16], "%Y-%m-%dT%H:%M").replace(tzinfo=CST)
-    path = SNAP_DIR / f"{ts.strftime('%Y-%m-%dT%H%M')}.json"
-    path.write_text(json.dumps(snap, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[fetch_new] 快照已写入 {path}（{len(snap['items'])} 条，source={snap['source']}）")
+    # 真实源有数据时逐条落盘；模拟回退时 mock_snapshot_for_now 已重建快照，无需再写
+    if snap.get("items"):
+        SNAP_DIR.mkdir(parents=True, exist_ok=True)
+        ts = datetime.strptime(snap["scraped_at"][:16], "%Y-%m-%dT%H:%M").replace(tzinfo=CST)
+        path = SNAP_DIR / f"{ts.strftime('%Y-%m-%dT%H%M')}.json"
+        path.write_text(json.dumps(snap, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[fetch_new] 快照已写入 {path}（{len(snap['items'])} 条，source={snap['source']}）")
+    else:
+        print(f"[fetch_new] 已重建规范模拟快照 -> {SNAP_DIR}/（source={snap['source']}）")
     return 0
 
 
