@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>每日热销榜 · 电商热销产品汇总</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .card-hover { transition: transform .18s ease, box-shadow .18s ease; }
+  .card-hover:hover { transform: translateY(-3px); }
+  .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .skeleton { background: linear-gradient(90deg,#ececec 25%,#f7f7f7 37%,#ececec 63%); background-size: 400% 100%; animation: sk 1.2s ease infinite; }
+  @keyframes sk { 0%{background-position:100% 50%} 100%{background-position:0 50%} }
+</style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
+
+  <!-- 顶部 -->
+  <header class="sticky top-0 z-20 bg-white/90 backdrop-blur border-b border-gray-200">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between flex-wrap gap-3">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center text-white font-bold text-lg shadow">🔥</div>
+        <div>
+          <h1 class="text-lg font-bold leading-tight">每日热销榜</h1>
+          <p class="text-xs text-gray-500">电商每日热销产品汇总</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2 text-sm">
+        <span id="sourceBadge" class="hidden px-2 py-1 rounded-full text-xs font-medium"></span>
+        <span id="dateText" class="text-gray-500"></span>
+        <button id="refreshBtn" onclick="load(true)" class="px-3 py-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium transition">↻ 刷新</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 筛选 / 统计 -->
+  <div class="max-w-6xl mx-auto px-4 py-5 w-full">
+    <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+      <div id="filterBar" class="flex flex-wrap gap-2"></div>
+      <div class="flex items-center gap-2 text-xs text-gray-500">
+        <span id="statText"></span>
+        <select id="sortSel" onchange="state.sort=this.value;render()" class="px-2 py-1 border border-gray-300 rounded-md text-xs bg-white">
+          <option value="rank">按排名</option>
+          <option value="price">按价格</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- 加载骨架 -->
+    <div id="skeleton" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <!-- 由 JS 填充 -->
+    </div>
+
+    <!-- 列表 -->
+    <div id="grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 hidden"></div>
+
+    <!-- 空 / 错误 -->
+    <div id="empty" class="hidden text-center py-24">
+      <div class="text-4xl mb-3">📭</div>
+      <p class="text-gray-500">暂无数据。请先运行 <code class="bg-gray-100 px-1.5 py-0.5 rounded text-xs">python3 scripts/fetch_hot.py</code> 生成 data/latest.json。</p>
+      <p id="errMsg" class="text-xs text-red-400 mt-2"></p>
+    </div>
+  </div>
+
+  <footer class="mt-auto py-6 text-center text-xs text-gray-400 border-t border-gray-200">
+    数据来源于各平台公开榜单页，仅供个人学习参考，非商业用途 · 榜单结构可能变化，抓取脚本需不定期维护
+  </footer>
+
+<script>
+const PLATFORMS = [
+  { key:'all', label:'全部', color:'#334155' },
+  { key:'jd',   label:'京东',   color:'#E1251B' },
+  { key:'tb',   label:'淘宝',   color:'#FF5000' },
+  { key:'pdd',  label:'拼多多', color:'#E02E24' },
+  { key:'smzdm',label:'值得买', color:'#FF6A00' },
+];
+const PLATFORM_MAP = Object.fromEntries(PLATFORMS.map(p=>[p.key,p]));
+
+const state = { data:null, platform:'all', sort:'rank' };
+
+// ---------- 骨架 ----------
+function showSkeleton(){
+  const sk = document.getElementById('skeleton');
+  sk.classList.remove('hidden');
+  sk.innerHTML = Array.from({length:10}).map(()=>`
+    <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+      <div class="skeleton aspect-square w-full"></div>
+      <div class="p-3 space-y-2">
+        <div class="skeleton h-3 rounded w-3/4"></div>
+        <div class="skeleton h-3 rounded w-1/2"></div>
+        <div class="skeleton h-4 rounded w-1/3"></div>
+      </div>
+    </div>`).join('');
+}
+function hideSkeleton(){ document.getElementById('skeleton').classList.add('hidden'); }
+
+// ---------- 数据加载 ----------
+async function load(force=false){
+  showSkeleton();
+  document.getElementById('grid').classList.add('hidden');
+  document.getElementById('empty').classList.add('hidden');
+  try {
+    const url = force ? `data/latest.json?t=${Date.now()}` : 'data/latest.json';
+    const res = await fetch(url, { cache:'no-store' });
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    state.data = await res.json();
+    renderMeta();
+    render();
+  } catch(e){
+    hideSkeleton();
+    document.getElementById('empty').classList.remove('hidden');
+    document.getElementById('errMsg').textContent = e.message;
+  }
+}
+
+// ---------- 头部统计 ----------
+function renderMeta(){
+  const d = state.data;
+  document.getElementById('dateText').textContent = '📅 ' + d.date;
+  const liveN = Object.values(d.sources||{}).filter(v=>v==='live').length;
+  const badge = document.getElementById('sourceBadge');
+  badge.classList.remove('hidden');
+  if(liveN>0){
+    badge.textContent = `实时数据 ${liveN} 平台`;
+    badge.className = 'px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700 ' + badge.className.split(' ').filter(c=>!c.includes('bg-')&&!c.includes('text-')).join(' ');
+  } else {
+    badge.textContent = '模拟数据';
+    badge.className = 'px-2 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-700 ' + badge.className.split(' ').filter(c=>!c.includes('bg-')&&!c.includes('text-')).join(' ');
+  }
+  document.getElementById('statText').textContent = `共 ${d.total} 款热销商品 · 更新时间 ${(d.generated_at||'').slice(0,16)}`;
+}
+
+// ---------- 筛选 ----------
+function renderFilter(){
+  const bar = document.getElementById('filterBar');
+  bar.innerHTML = PLATFORMS.map(p=>{
+    const active = state.platform===p.key;
+    return `<button onclick="state.platform='${p.key}';renderFilter();render()"
+      class="px-3 py-1.5 rounded-full text-sm font-medium transition border
+      ${active?'text-white border-transparent shadow':'bg-white text-gray-600 border-gray-200 hover:border-gray-400'}"
+      style="${active?`background:${p.color}`:''}">${p.label}</button>`;
+  }).join('');
+}
+
+// ---------- 渲染卡片 ----------
+function trendHtml(t, c){
+  if(t==='up')   return `<span class="inline-flex items-center gap-0.5 text-red-500 font-semibold">↑${c||''}</span>`;
+  if(t==='down') return `<span class="inline-flex items-center gap-0.5 text-green-600 font-semibold">↓${c||''}</span>`;
+  if(t==='new')  return `<span class="inline-flex items-center gap-0.5 text-sky-500 font-semibold">新</span>`;
+  return `<span class="text-gray-400 font-semibold">–</span>`;
+}
+
+function rankBadge(rank, platform){
+  const medal = rank===1 ? 'bg-gradient-to-br from-yellow-300 to-amber-500' :
+                rank===2 ? 'bg-gradient-to-br from-gray-200 to-gray-400' :
+                rank===3 ? 'bg-gradient-to-br from-orange-300 to-amber-600' :
+                `bg-black/45`;
+  return `<div class="absolute top-2 left-2 w-7 h-7 rounded-lg ${medal} text-white text-sm font-bold flex items-center justify-center shadow">${rank}</div>`;
+}
+
+function card(it){
+  const pm = PLATFORM_MAP[it.platform]||PLATFORM_MAP.all;
+  return `
+  <a href="${it.url||'#'}" target="_blank" rel="noopener noreferrer"
+     class="card-hover bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 group">
+    <div class="relative aspect-square bg-gray-100">
+      ${rankBadge(it.rank, it.platform)}
+      <span class="absolute top-2 right-2 px-1.5 py-0.5 rounded text-[10px] text-white font-medium"
+            style="background:${pm.color}">${it.platform_label||pm.label}</span>
+      <img src="${it.image}" alt="${it.title}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+           onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22480%22 height=%22480%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%23eee%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2224%22 fill=%22%23999%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>暂无图</text></svg>'">
+    </div>
+    <div class="p-3">
+      <div class="text-sm leading-snug line-clamp-2 min-h-[2.5rem] group-hover:text-blue-600 transition">${it.title}</div>
+      <div class="mt-2 flex items-end justify-between">
+        <div class="text-red-600 font-bold text-base">${it.price}</div>
+        <div class="text-xs">${trendHtml(it.trend,it.change)}</div>
+      </div>
+    </div>
+  </a>`;
+}
+
+function render(){
+  hideSkeleton();
+  const grid = document.getElementById('grid');
+  if(!state.data || !state.data.items.length){ grid.classList.add('hidden'); document.getElementById('empty').classList.remove('hidden'); return; }
+  let items = state.data.items.filter(it => state.platform==='all' || it.platform===state.platform);
+  if(state.sort==='price'){
+    items = [...items].sort((a,b)=> parseFloat((a.price||'0').replace(/[^\d.]/g,'')) - parseFloat((b.price||'0').replace(/[^\d.]/g,'')));
+  }
+  const pmSel = PLATFORM_MAP[state.platform];
+  document.getElementById('statText').textContent =
+    `共 ${items.length} 款${state.platform!=='all'?'（'+pmSel.label+'）':''} · 更新时间 ${(state.data.generated_at||'').slice(0,16)}`;
+  grid.innerHTML = items.map(card).join('');
+  grid.classList.remove('hidden');
+  document.getElementById('empty').classList.add('hidden');
+}
+
+renderFilter();
+load();
+</script>
+</body>
+</html>

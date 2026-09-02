@@ -1,0 +1,343 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02 15:28:03 +0800",
+  "total": 30,
+  "sources": {
+    "jd": "mock",
+    "tb": "mock",
+    "pdd": "mock",
+    "smzdm": "mock"
+  },
+  "items": [
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 1,
+      "title": "Apple iPhone 16 Pro 256GB 原色钛金属 5G手机",
+      "price": "¥7999",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-1/480/480",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 2,
+      "title": "小米 智能门锁 Pro 指纹锁 C级锁芯 全自动",
+      "price": "¥1299",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-2/480/480",
+      "trend": "up",
+      "change": 2
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 3,
+      "title": "美的 变频空调 大1.5匹 新一级能效 智能语音",
+      "price": "¥2199",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-3/480/480",
+      "trend": "up",
+      "change": 1
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 4,
+      "title": "华为 FreeBuds Pro 4 无线蓝牙耳机 降噪",
+      "price": "¥899",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-4/480/480",
+      "trend": "down",
+      "change": 1
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 5,
+      "title": "联想拯救者 Y9000P 电竞游戏本 16英寸",
+      "price": "¥9299",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-5/480/480",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 6,
+      "title": "格力 电风扇 落地扇 家用静音遥控",
+      "price": "¥199",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-6/480/480",
+      "trend": "up",
+      "change": 3
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 7,
+      "title": "蒙牛特仑苏 纯牛奶 250ml×16盒 整箱",
+      "price": "¥59.9",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-7/480/480",
+      "trend": "up",
+      "change": 5
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 8,
+      "title": "罗技 MX Master 3S 无线蓝牙鼠标 静音",
+      "price": "¥649",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-8/480/480",
+      "trend": "down",
+      "change": 2
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 9,
+      "title": "苏泊尔 电饭煲 4L 球釜 智能预约",
+      "price": "¥349",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-9/480/480",
+      "trend": "up",
+      "change": 1
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 10,
+      "title": "海信 55英寸 4K超高清 智能网络电视",
+      "price": "¥1899",
+      "url": "https://www.jd.com/",
+      "image": "https://picsum.photos/seed/hot-jd-10/480/480",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "rank": 1,
+      "title": "优衣库 U系列 圆领纯棉T恤 男女同款",
+      "price": "¥79",
+      "url": "https://www.taobao.com/",
+      "image": "https://picsum.photos/seed/hot-tb-1/480/480",
+      "trend": "up",
+      "change": 2
+    },
+    {
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "rank": 2,
+      "title": "花西子 空气蜜粉 定妆散粉 控油持妆",
+      "price": "¥149",
+      "url": "https://www.taobao.com/",
+      "image": "https://picsum.photos/seed/hot-tb-2/480/480",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "rank": 3,
+      "title": "三只松鼠 每日坚果 30包 混合装",
+      "price": "¥89",
+      "url": "https://www.taobao.com/",
+      "image": "https://picsum.photos/seed/hot-tb-3/480/480",
+      "trend": "up",
+      "change": 4
+    },
+    {
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "rank": 4,
+      "title": "蕉下 冰丝防晒衣 UPF50+ 轻薄透气",
+      "price": "¥199",
+      "url": "https://www.taobao.com/",
+      "image": "https://picsum.photos/seed/hot-tb-4/480/480",
+      "trend": "down",
+      "change": 1
+    },
+    {
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "rank": 5,
+      "title": "欧莱雅 玻尿酸充盈 安瓶精华 保湿",
+      "price": "¥259",
+      "url": "https://www.taobao.com/",
+      "image": "https://picsum.photos/seed/hot-tb-5/480/480",
+      "trend": "up",
+      "change": 3
+    },
+    {
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "rank": 6,
+      "title": "小米 氮化镓充电器 67W 快充",
+      "price": "¥99",
+      "url": "https://www.taobao.com/",
+      "image": "https://picsum.photos/seed/hot-tb-6/480/480",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "rank": 7,
+      "title": "六神 花露水 195ml×2瓶 驱蚊清凉",
+      "price": "¥29.9",
+      "url": "https://www.taobao.com/",
+      "image": "https://picsum.photos/seed/hot-tb-7/480/480",
+      "trend": "up",
+      "change": 6
+    },
+    {
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "rank": 8,
+      "title": "鸿星尔克 轻便透气运动跑鞋 男款",
+      "price": "¥159",
+      "url": "https://www.taobao.com/",
+      "image": "https://picsum.photos/seed/hot-tb-8/480/480",
+      "trend": "down",
+      "change": 3
+    },
+    {
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "rank": 1,
+      "title": "无线蓝牙耳机 高音质降噪 运动款",
+      "price": "¥29.9",
+      "url": "https://www.pinduoduo.com/",
+      "image": "https://picsum.photos/seed/hot-pdd-1/480/480",
+      "trend": "up",
+      "change": 5
+    },
+    {
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "rank": 2,
+      "title": "家用厨房置物架 多层落地收纳架",
+      "price": "¥45.9",
+      "url": "https://www.pinduoduo.com/",
+      "image": "https://picsum.photos/seed/hot-pdd-2/480/480",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "rank": 3,
+      "title": "手机支架 桌面可调节 懒人神器",
+      "price": "¥9.9",
+      "url": "https://www.pinduoduo.com/",
+      "image": "https://picsum.photos/seed/hot-pdd-3/480/480",
+      "trend": "up",
+      "change": 2
+    },
+    {
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "rank": 4,
+      "title": "车载吸尘器 大吸力 无线便携",
+      "price": "¥79",
+      "url": "https://www.pinduoduo.com/",
+      "image": "https://picsum.photos/seed/hot-pdd-4/480/480",
+      "trend": "up",
+      "change": 1
+    },
+    {
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "rank": 5,
+      "title": "夏季冰丝凉席 空调被 三件套",
+      "price": "¥59",
+      "url": "https://www.pinduoduo.com/",
+      "image": "https://picsum.photos/seed/hot-pdd-5/480/480",
+      "trend": "down",
+      "change": 1
+    },
+    {
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "rank": 6,
+      "title": "洗衣凝珠 留香珠 持久留香 60颗",
+      "price": "¥19.9",
+      "url": "https://www.pinduoduo.com/",
+      "image": "https://picsum.photos/seed/hot-pdd-6/480/480",
+      "trend": "up",
+      "change": 3
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 1,
+      "title": "京东PLUS 年卡会员 送免运费券",
+      "price": "¥148",
+      "url": "https://www.smzdm.com/top/",
+      "image": "https://picsum.photos/seed/hot-smzdm-1/480/480",
+      "trend": "up",
+      "change": 2
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 2,
+      "title": "天猫超市 牛奶卡 88VIP 充值",
+      "price": "¥99",
+      "url": "https://www.smzdm.com/top/",
+      "image": "https://picsum.photos/seed/hot-smzdm-2/480/480",
+      "trend": "down",
+      "change": 1
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 3,
+      "title": "星巴克 中杯拿铁 电子兑换券",
+      "price": "¥25",
+      "url": "https://www.smzdm.com/top/",
+      "image": "https://picsum.photos/seed/hot-smzdm-3/480/480",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 4,
+      "title": "Kindle 电子书 0.99元 特价专场",
+      "price": "¥0.99",
+      "url": "https://www.smzdm.com/top/",
+      "image": "https://picsum.photos/seed/hot-smzdm-4/480/480",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 5,
+      "title": "瑞幸 9.9元咖啡券 全国通用 囤货",
+      "price": "¥9.9",
+      "url": "https://www.smzdm.com/top/",
+      "image": "https://picsum.photos/seed/hot-smzdm-5/480/480",
+      "trend": "up",
+      "change": 4
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 6,
+      "title": "小米手环9 NFC版 到手价",
+      "price": "¥229",
+      "url": "https://www.smzdm.com/top/",
+      "image": "https://picsum.photos/seed/hot-smzdm-6/480/480",
+      "trend": "up",
+      "change": 1
+    }
+  ]
+}
