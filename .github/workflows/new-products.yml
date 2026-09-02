@@ -1,0 +1,39 @@
+name: 新品快照采集与潜力分析
+
+on:
+  schedule:
+    # 每 15 分钟采集一次新品快照（公开仓库 Actions 免费）
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 采集新品快照（真实源不可用自动回退模拟）
+        run: python scripts/fetch_new_products.py
+
+      - name: 差分分析，生成潜力新品榜
+        run: python scripts/analyze_new_products.py
+
+      - name: 提交快照与分析结果
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: 更新新品快照与潜力分析 $(date +'%Y-%m-%d %H:%M')"
+          commit_user_name: "hot-bot"
+          commit_user_email: "hot-bot@users.noreply.github.com"
+          file_pattern: "data/snapshots/*.json data/hot_new_products.json"

@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-09-02 16:23:19 +0800",
+  "window_start": "2026-09-02T14:00:00+0800",
+  "window_end": "2026-09-02T16:00:00+0800",
+  "snapshots_count": 9,
+  "candidates_count": 6,
+  "items": [
+    {
+      "id": "np-pdd-1",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "挂脖风扇 无叶设计",
+      "price": "¥39",
+      "image": "data/img/np-pdd-1.jpg",
+      "first_seen": "2026-09-02T15:30:00+0800",
+      "listed_minutes": 30,
+      "broke_zero": true,
+      "broke_zero_minutes": 15,
+      "sales": 45,
+      "sales_per_hour": 90.0,
+      "rank": 50,
+      "rank_change": 70,
+      "potential_score": 84,
+      "tags": [
+        "30分钟破0",
+        "排名飙升"
+      ]
+    },
+    {
+      "id": "np-tb-1",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "无线蓝牙耳机 新升级降噪版",
+      "price": "¥79",
+      "image": "data/img/np-tb-1.jpg",
+      "first_seen": "2026-09-02T14:15:00+0800",
+      "listed_minutes": 105,
+      "broke_zero": true,
+      "broke_zero_minutes": 30,
+      "sales": 320,
+      "sales_per_hour": 182.9,
+      "rank": 8,
+      "rank_change": 34,
+      "potential_score": 83,
+      "tags": [
+        "30分钟破0",
+        "起量快",
+        "排名飙升"
+      ]
+    },
+    {
+      "id": "np-tb-2",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "桌面迷你加湿器 静音款",
+      "price": "¥49",
+      "image": "data/img/np-tb-2.jpg",
+      "first_seen": "2026-09-02T14:30:00+0800",
+      "listed_minutes": 90,
+      "broke_zero": true,
+      "broke_zero_minutes": 30,
+      "sales": 180,
+      "sales_per_hour": 120.0,
+      "rank": 20,
+      "rank_change": 40,
+      "potential_score": 77,
+      "tags": [
+        "30分钟破0",
+        "起量快",
+        "排名飙升"
+      ]
+    },
+    {
+      "id": "np-tb-3",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "便携榨汁杯 USB充电",
+      "price": "¥69",
+      "image": "data/img/np-tb-3.jpg",
+      "first_seen": "2026-09-02T14:45:00+0800",
+      "listed_minutes": 75,
+      "broke_zero": true,
+      "broke_zero_minutes": 30,
+      "sales": 95,
+      "sales_per_hour": 76.0,
+      "rank": 15,
+      "rank_change": 15,
+      "potential_score": 63,
+      "tags": [
+        "30分钟破0",
+        "排名飙升"
+      ]
+    },
+    {
+      "id": "np-tb-4",
+      "platform": "tb",
+      "platform_label": "淘宝",
+      "title": "宠物自动喂食器 定时定量",
+      "price": "¥129",
+      "image": "data/img/np-tb-4.jpg",
+      "first_seen": "2026-09-02T15:00:00+0800",
+      "listed_minutes": 60,
+      "broke_zero": false,
+      "broke_zero_minutes": null,
+      "sales": 0,
+      "sales_per_hour": 0.0,
+      "rank": 55,
+      "rank_change": 25,
+      "potential_score": 42,
+      "tags": [
+        "观察期",
+        "排名飙升"
+      ]
+    },
+    {
+      "id": "np-pdd-2",
+      "platform": "pdd",
+      "platform_label": "拼多多",
+      "title": "便携咖啡机 手压浓缩",
+      "price": "¥199",
+      "image": "data/img/np-pdd-2.jpg",
+      "first_seen": "2026-09-02T15:45:00+0800",
+      "listed_minutes": 15,
+      "broke_zero": false,
+      "broke_zero_minutes": null,
+      "sales": 0,
+      "sales_per_hour": 0.0,
+      "rank": 190,
+      "rank_change": 10,
+      "potential_score": 38,
+      "tags": [
+        "观察期",
+        "排名飙升"
+      ]
+    }
+  ]
+}

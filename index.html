@@ -22,48 +22,72 @@
         <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center text-white font-bold text-lg shadow">🔥</div>
         <div>
           <h1 class="text-lg font-bold leading-tight">每日热销榜</h1>
-          <p class="text-xs text-gray-500">电商每日热销产品汇总</p>
+          <p class="text-xs text-gray-500">电商每日热销产品汇总 · 新品潜力监控</p>
         </div>
       </div>
       <div class="flex items-center gap-2 text-sm">
         <span id="sourceBadge" class="hidden px-2 py-1 rounded-full text-xs font-medium"></span>
         <span id="dateText" class="text-gray-500"></span>
-        <button id="refreshBtn" onclick="load(true)" class="px-3 py-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium transition">↻ 刷新</button>
+        <button id="refreshBtn" onclick="refreshCurrent()" class="px-3 py-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium transition">↻ 刷新</button>
       </div>
+    </div>
+    <!-- 视图切换 -->
+    <div class="max-w-6xl mx-auto px-4 pb-3 flex gap-2">
+      <button id="viewHotBtn" onclick="switchView('hot')"
+        class="px-4 py-1.5 rounded-lg text-sm font-medium transition border">🔥 每日热销榜</button>
+      <button id="viewNewBtn" onclick="switchView('new')"
+        class="px-4 py-1.5 rounded-lg text-sm font-medium transition border">🚀 潜力新品</button>
     </div>
   </header>
 
-  <!-- 筛选 / 统计 -->
   <div class="max-w-6xl mx-auto px-4 py-5 w-full">
-    <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
-      <div id="filterBar" class="flex flex-wrap gap-2"></div>
-      <div class="flex items-center gap-2 text-xs text-gray-500">
-        <span id="statText"></span>
-        <select id="sortSel" onchange="state.sort=this.value;render()" class="px-2 py-1 border border-gray-300 rounded-md text-xs bg-white">
-          <option value="rank">按排名</option>
-          <option value="price">按价格</option>
-        </select>
+
+    <!-- ================= 热销榜视图 ================= -->
+    <div id="hotView">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+        <div id="filterBar" class="flex flex-wrap gap-2"></div>
+        <div class="flex items-center gap-2 text-xs text-gray-500">
+          <span id="statText"></span>
+          <select id="sortSel" onchange="state.sort=this.value;render()" class="px-2 py-1 border border-gray-300 rounded-md text-xs bg-white">
+            <option value="rank">按排名</option>
+            <option value="price">按价格</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="skeleton" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4"><!-- JS 填充 --></div>
+      <div id="grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 hidden"></div>
+
+      <div id="empty" class="hidden text-center py-24">
+        <div class="text-4xl mb-3">📭</div>
+        <p class="text-gray-500">暂无数据。请先运行 <code class="bg-gray-100 px-1.5 py-0.5 rounded text-xs">python3 scripts/fetch_hot.py</code> 生成 data/latest.json。</p>
+        <p id="errMsg" class="text-xs text-red-400 mt-2"></p>
       </div>
     </div>
 
-    <!-- 加载骨架 -->
-    <div id="skeleton" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-      <!-- 由 JS 填充 -->
-    </div>
+    <!-- ================= 潜力新品视图 ================= -->
+    <div id="newView" class="hidden">
+      <div class="flex flex-wrap items-center gap-2 mb-4 text-xs text-gray-600">
+        <span class="px-2.5 py-1 rounded-full bg-white border border-gray-200">🕐 监控窗口 <b id="newWindow"></b></span>
+        <span class="px-2.5 py-1 rounded-full bg-white border border-gray-200">📸 快照 <b id="newSnapshots"></b> 条</span>
+        <span class="px-2.5 py-1 rounded-full bg-white border border-gray-200">🔍 候选新品 <b id="newCandidates"></b> 款</span>
+        <span class="px-2.5 py-1 rounded-full bg-white border border-gray-200">✅ 已破0 <b id="newBroke"></b> 款</span>
+        <span class="ml-auto text-gray-400">按「30分钟破0 / 起量快 / 排名蹿升」信号打分的潜力新品</span>
+      </div>
 
-    <!-- 列表 -->
-    <div id="grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 hidden"></div>
+      <div id="newSkeleton" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4"><!-- JS 填充 --></div>
+      <div id="newGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 hidden"></div>
 
-    <!-- 空 / 错误 -->
-    <div id="empty" class="hidden text-center py-24">
-      <div class="text-4xl mb-3">📭</div>
-      <p class="text-gray-500">暂无数据。请先运行 <code class="bg-gray-100 px-1.5 py-0.5 rounded text-xs">python3 scripts/fetch_hot.py</code> 生成 data/latest.json。</p>
-      <p id="errMsg" class="text-xs text-red-400 mt-2"></p>
+      <div id="newEmpty" class="hidden text-center py-24">
+        <div class="text-4xl mb-3">🚀</div>
+        <p class="text-gray-500">暂无新品数据。请先运行 <code class="bg-gray-100 px-1.5 py-0.5 rounded text-xs">python3 scripts/mock_snapshots.py && python3 scripts/analyze_new_products.py</code> 生成 data/hot_new_products.json。</p>
+        <p id="newErr" class="text-xs text-red-400 mt-2"></p>
+      </div>
     </div>
   </div>
 
   <footer class="mt-auto py-6 text-center text-xs text-gray-400 border-t border-gray-200">
-    数据来源于各平台公开榜单页，仅供个人学习参考，非商业用途 · 榜单结构可能变化，抓取脚本需不定期维护
+    数据来源于各平台公开榜单页，仅供个人学习参考，非商业用途 · 榜单结构可能变化，抓取脚本需不定期维护 · 新品潜力为公开信号推断（近似），非平台真实流量数据
   </footer>
 
 <script>
@@ -76,13 +100,26 @@ const PLATFORMS = [
 ];
 const PLATFORM_MAP = Object.fromEntries(PLATFORMS.map(p=>[p.key,p]));
 
-const state = { data:null, platform:'all', sort:'rank' };
+const state = { data:null, newData:null, platform:'all', sort:'rank', view:'hot' };
+
+// ---------- 视图切换 ----------
+function switchView(v){
+  state.view = v;
+  document.getElementById('hotView').classList.toggle('hidden', v!=='hot');
+  document.getElementById('newView').classList.toggle('hidden', v!=='new');
+  const base = 'px-4 py-1.5 rounded-lg text-sm font-medium transition border ';
+  document.getElementById('viewHotBtn').className = base + (v==='hot' ? 'bg-gray-900 text-white border-gray-900' : 'bg-white text-gray-600 border-gray-200 hover:border-gray-400');
+  document.getElementById('viewNewBtn').className = base + (v==='new' ? 'bg-gray-900 text-white border-gray-900' : 'bg-white text-gray-600 border-gray-200 hover:border-gray-400');
+  if(v==='new' && !state.newData) loadNew();
+  if(v==='hot' && !state.data) loadHot();
+}
+function refreshCurrent(){ if(state.view==='hot') loadHot(true); else loadNew(true); }
 
 // ---------- 骨架 ----------
-function showSkeleton(){
-  const sk = document.getElementById('skeleton');
+function showSkeleton(id, n){
+  const sk = document.getElementById(id);
   sk.classList.remove('hidden');
-  sk.innerHTML = Array.from({length:10}).map(()=>`
+  sk.innerHTML = Array.from({length:n}).map(()=>`
     <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
       <div class="skeleton aspect-square w-full"></div>
       <div class="p-3 space-y-2">
@@ -92,11 +129,11 @@ function showSkeleton(){
       </div>
     </div>`).join('');
 }
-function hideSkeleton(){ document.getElementById('skeleton').classList.add('hidden'); }
+function hideSkeleton(id){ document.getElementById(id).classList.add('hidden'); }
 
-// ---------- 数据加载 ----------
-async function load(force=false){
-  showSkeleton();
+// ==================== 热销榜 ====================
+async function loadHot(force=false){
+  showSkeleton('skeleton',10);
   document.getElementById('grid').classList.add('hidden');
   document.getElementById('empty').classList.add('hidden');
   try {
@@ -107,30 +144,24 @@ async function load(force=false){
     renderMeta();
     render();
   } catch(e){
-    hideSkeleton();
+    hideSkeleton('skeleton');
     document.getElementById('empty').classList.remove('hidden');
     document.getElementById('errMsg').textContent = e.message;
   }
 }
 
-// ---------- 头部统计 ----------
 function renderMeta(){
   const d = state.data;
   document.getElementById('dateText').textContent = '📅 ' + d.date;
   const liveN = Object.values(d.sources||{}).filter(v=>v==='live').length;
   const badge = document.getElementById('sourceBadge');
   badge.classList.remove('hidden');
-  if(liveN>0){
-    badge.textContent = `实时数据 ${liveN} 平台`;
-    badge.className = 'px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700 ' + badge.className.split(' ').filter(c=>!c.includes('bg-')&&!c.includes('text-')).join(' ');
-  } else {
-    badge.textContent = '模拟数据';
-    badge.className = 'px-2 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-700 ' + badge.className.split(' ').filter(c=>!c.includes('bg-')&&!c.includes('text-')).join(' ');
-  }
+  badge.className = 'px-2 py-1 rounded-full text-xs font-medium ' +
+    (liveN>0 ? 'bg-green-100 text-green-700' : 'bg-amber-100 text-amber-700');
+  badge.textContent = liveN>0 ? `实时数据 ${liveN} 平台` : '模拟数据';
   document.getElementById('statText').textContent = `共 ${d.total} 款热销商品 · 更新时间 ${(d.generated_at||'').slice(0,16)}`;
 }
 
-// ---------- 筛选 ----------
 function renderFilter(){
   const bar = document.getElementById('filterBar');
   bar.innerHTML = PLATFORMS.map(p=>{
@@ -142,7 +173,6 @@ function renderFilter(){
   }).join('');
 }
 
-// ---------- 渲染卡片 ----------
 function trendHtml(t, c){
   if(t==='up')   return `<span class="inline-flex items-center gap-0.5 text-red-500 font-semibold">↑${c||''}</span>`;
   if(t==='down') return `<span class="inline-flex items-center gap-0.5 text-green-600 font-semibold">↓${c||''}</span>`;
@@ -150,21 +180,20 @@ function trendHtml(t, c){
   return `<span class="text-gray-400 font-semibold">–</span>`;
 }
 
-function rankBadge(rank, platform){
+function rankBadge(rank){
   const medal = rank===1 ? 'bg-gradient-to-br from-yellow-300 to-amber-500' :
                 rank===2 ? 'bg-gradient-to-br from-gray-200 to-gray-400' :
-                rank===3 ? 'bg-gradient-to-br from-orange-300 to-amber-600' :
-                `bg-black/45`;
+                rank===3 ? 'bg-gradient-to-br from-orange-300 to-amber-600' : 'bg-black/45';
   return `<div class="absolute top-2 left-2 w-7 h-7 rounded-lg ${medal} text-white text-sm font-bold flex items-center justify-center shadow">${rank}</div>`;
 }
 
-function card(it){
+function hotCard(it){
   const pm = PLATFORM_MAP[it.platform]||PLATFORM_MAP.all;
   return `
   <a href="${it.url||'#'}" target="_blank" rel="noopener noreferrer"
      class="card-hover bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 group">
     <div class="relative aspect-square bg-gray-100">
-      ${rankBadge(it.rank, it.platform)}
+      ${rankBadge(it.rank)}
       <span class="absolute top-2 right-2 px-1.5 py-0.5 rounded text-[10px] text-white font-medium"
             style="background:${pm.color}">${it.platform_label||pm.label}</span>
       <img src="${it.image}" alt="${it.title}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
@@ -181,7 +210,7 @@ function card(it){
 }
 
 function render(){
-  hideSkeleton();
+  hideSkeleton('skeleton');
   const grid = document.getElementById('grid');
   if(!state.data || !state.data.items.length){ grid.classList.add('hidden'); document.getElementById('empty').classList.remove('hidden'); return; }
   let items = state.data.items.filter(it => state.platform==='all' || it.platform===state.platform);
@@ -191,13 +220,105 @@ function render(){
   const pmSel = PLATFORM_MAP[state.platform];
   document.getElementById('statText').textContent =
     `共 ${items.length} 款${state.platform!=='all'?'（'+pmSel.label+'）':''} · 更新时间 ${(state.data.generated_at||'').slice(0,16)}`;
-  grid.innerHTML = items.map(card).join('');
+  grid.innerHTML = items.map(hotCard).join('');
   grid.classList.remove('hidden');
   document.getElementById('empty').classList.add('hidden');
 }
 
+// ==================== 潜力新品 ====================
+function fmtAge(min){
+  if(min==null) return '—';
+  if(min<60) return min+'min';
+  return (min/60).toFixed(1)+'h';
+}
+
+function newTagHtml(t){
+  const map = {
+    '30分钟破0': 'bg-red-50 text-red-600 border-red-200',
+    '已破0':      'bg-green-50 text-green-600 border-green-200',
+    '观察期':     'bg-gray-50 text-gray-500 border-gray-200',
+    '起量快':     'bg-emerald-50 text-emerald-600 border-emerald-200',
+    '排名飙升':   'bg-sky-50 text-sky-600 border-sky-200',
+  };
+  const cls = map[t] || 'bg-gray-50 text-gray-500 border-gray-200';
+  return `<span class="px-1.5 py-0.5 rounded text-[10px] border ${cls}">${t}</span>`;
+}
+
+function newCard(it){
+  const pm = PLATFORM_MAP[it.platform]||PLATFORM_MAP.all;
+  const score = it.potential_score||0;
+  const scoreCls = score>=85 ? 'from-green-400 to-emerald-600'
+                 : score>=65 ? 'from-orange-300 to-amber-600'
+                 : 'from-sky-400 to-blue-600';
+  const tags = (it.tags||[]).map(newTagHtml).join('');
+  const rankUp = it.rank_change>0 ? `<span class="text-red-500 font-bold">↑${it.rank_change}</span>`
+               : `<span class="text-gray-400">—</span>`;
+  return `
+  <div class="card-hover bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+    <div class="relative aspect-square bg-gray-100">
+      <div class="absolute top-2 left-2 w-9 h-9 rounded-lg bg-gradient-to-br ${scoreCls} text-white text-sm font-bold flex items-center justify-center shadow">${score}</div>
+      <span class="absolute top-2 right-2 px-1.5 py-0.5 rounded text-[10px] text-white font-medium" style="background:${pm.color}">${it.platform_label||pm.label}</span>
+      <img src="${it.image}" alt="${it.title}" loading="lazy" class="w-full h-full object-cover"
+           onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22480%22 height=%22480%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%23eee%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2224%22 fill=%22%23999%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>暂无图</text></svg>'">
+    </div>
+    <div class="p-3">
+      <div class="flex items-center justify-between gap-1">
+        <div class="text-xs text-gray-400">潜力评分</div>
+        <div class="text-[11px] text-gray-400">${it.rank?('第'+it.rank+'名'):''}</div>
+      </div>
+      <div class="mt-1 h-1.5 bg-gray-100 rounded-full overflow-hidden"><div class="h-full bg-gradient-to-r ${scoreCls} rounded-full" style="width:${score}%"></div></div>
+      <div class="mt-2 text-sm leading-snug line-clamp-2 min-h-[2.5rem]">${it.title}</div>
+      <div class="mt-2 flex flex-wrap gap-1">${tags}</div>
+      <div class="mt-2 grid grid-cols-2 gap-x-2 gap-y-1 text-[11px] text-gray-500">
+        <div>上架时长 <b class="text-gray-700">${fmtAge(it.listed_minutes)}</b></div>
+        <div>破0用时 <b class="text-gray-700">${it.broke_zero?fmtAge(it.broke_zero_minutes):'未破0'}</b></div>
+        <div>销量 <b class="text-red-600">${it.sales}</b></div>
+        <div>排名变化 <b>${rankUp}</b></div>
+      </div>
+      <div class="mt-2 flex items-center justify-between">
+        <div class="text-red-600 font-bold">${it.price}</div>
+        <div class="text-[10px] text-gray-400">${it.sales_per_hour}单/时</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+async function loadNew(force=false){
+  showSkeleton('newSkeleton',10);
+  document.getElementById('newGrid').classList.add('hidden');
+  document.getElementById('newEmpty').classList.add('hidden');
+  try {
+    const url = force ? `data/hot_new_products.json?t=${Date.now()}` : 'data/hot_new_products.json';
+    const res = await fetch(url, { cache:'no-store' });
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    state.newData = await res.json();
+    renderNew();
+  } catch(e){
+    hideSkeleton('newSkeleton');
+    document.getElementById('newEmpty').classList.remove('hidden');
+    document.getElementById('newErr').textContent = e.message;
+  }
+}
+
+function renderNew(){
+  hideSkeleton('newSkeleton');
+  const d = state.newData;
+  const grid = document.getElementById('newGrid');
+  if(!d || !d.items || !d.items.length){ grid.classList.add('hidden'); document.getElementById('newEmpty').classList.remove('hidden'); return; }
+  const broke = d.items.filter(it=>it.broke_zero).length;
+  document.getElementById('newWindow').textContent =
+    `${(d.window_start||'').slice(5,16).replace('T',' ')} ~ ${(d.window_end||'').slice(5,16).replace('T',' ')}`;
+  document.getElementById('newSnapshots').textContent = d.snapshots_count||0;
+  document.getElementById('newCandidates').textContent = d.candidates_count||d.items.length;
+  document.getElementById('newBroke').textContent = broke;
+  grid.innerHTML = d.items.map(newCard).join('');
+  grid.classList.remove('hidden');
+  document.getElementById('newEmpty').classList.add('hidden');
+}
+
+// ---------- 启动 ----------
 renderFilter();
-load();
+switchView('hot');
 </script>
 </body>
 </html>
