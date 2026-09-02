@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-02 17:49:21 +0800",
+  "generated_at": "2026-09-02 18:03:14 +0800",
   "window_start": "2026-09-02T14:00:00+0800",
-  "window_end": "2026-09-02T17:49:21+0800",
-  "snapshots_count": 14,
-  "candidates_count": 3,
+  "window_end": "2026-09-02T18:03:14+0800",
+  "snapshots_count": 15,
+  "candidates_count": 2,
   "items": [
     {
       "id": "np-pdd-1",
@@ -13,38 +13,17 @@
       "price": "¥39",
       "image": "data/img/np-pdd-1.jpg",
       "first_seen": "2026-09-02T15:30:00+0800",
-      "listed_minutes": 139,
+      "listed_minutes": 153,
       "broke_zero": true,
       "broke_zero_minutes": 15,
       "sales": 45,
-      "sales_per_hour": 19.4,
+      "sales_per_hour": 17.6,
       "rank": 50,
       "rank_change": 70,
       "potential_score": 97,
       "tags": [
         "30分钟破0",
         "起量快",
-        "排名飙升"
-      ]
-    },
-    {
-      "id": "np-tb-4",
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "title": "宠物自动喂食器 定时定量",
-      "price": "¥129",
-      "image": "data/img/np-tb-4.jpg",
-      "first_seen": "2026-09-02T15:00:00+0800",
-      "listed_minutes": 169,
-      "broke_zero": false,
-      "broke_zero_minutes": null,
-      "sales": 0,
-      "sales_per_hour": 0.0,
-      "rank": 55,
-      "rank_change": 25,
-      "potential_score": 42,
-      "tags": [
-        "观察期",
         "排名飙升"
       ]
     },
@@ -56,7 +35,7 @@
       "price": "¥199",
       "image": "data/img/np-pdd-2.jpg",
       "first_seen": "2026-09-02T15:45:00+0800",
-      "listed_minutes": 124,
+      "listed_minutes": 138,
       "broke_zero": false,
       "broke_zero_minutes": null,
       "sales": 0,
