@@ -16,7 +16,8 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 CST = timezone(timedelta(hours=8))
-IMG_BASE = "https://picsum.photos/seed/hot-{seed}/480/480"
+# 商品图：存放在仓库 data/img/ 下的本地图片（自托管，与商品一一对应，不依赖外部图床）
+IMG_BASE = "data/img/{key}-{i}.jpg"
 
 # 平台: (key, 展示名)
 PLATFORMS = [
@@ -82,7 +83,7 @@ def build_mock_dataset(day: str) -> dict:
                 "title": title,
                 "price": price,
                 "url": url,
-                "image": IMG_BASE.format(seed=f"{key}-{i}"),
+                "image": IMG_BASE.format(key=key, i=i),
                 "trend": trend,
                 "change": change,
             })
