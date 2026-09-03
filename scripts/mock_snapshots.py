@@ -26,8 +26,8 @@ from pathlib import Path
 CST = timezone(timedelta(hours=8))
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 SNAP_DIR = DATA_DIR / "snapshots"
-DAY = "2026-09-02"
-BASE_TIME = datetime.strptime(f"{DAY} 14:00", "%Y-%m-%d %H:%M").replace(tzinfo=CST)
+# 动态基准：以"当天 14:00"为演示窗口起点，日期随运行日期自动更新
+BASE_TIME = datetime.now(CST).replace(hour=14, minute=0, second=0, microsecond=0)
 SNAP_INTERVAL_MIN = 15
 
 # 1688 同款搜索链接模板
