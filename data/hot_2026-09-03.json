@@ -1,14 +1,177 @@
 {
   "date": "2026-09-03",
-  "generated_at": "2026-09-03 16:02:21 +0800",
-  "total": 30,
+  "generated_at": "2026-09-04 06:13:40 +0800",
+  "total": 25,
   "sources": {
-    "jd": "mock",
-    "tb": "mock",
-    "pdd": "mock",
-    "smzdm": "mock"
+    "smzdm": "live",
+    "jd": "mock"
   },
   "items": [
+    {
+      "rank": 1,
+      "title": "国家补贴、今日必买：OPPO Find X8 Pro 5G手机 16GB+1TB 漫步云端",
+      "price": "¥3599元（需用券）",
+      "url": "https://www.smzdm.com/p/181636643/",
+      "image": "https://y.zdmimg.com/202507/15/68759c62f3119414.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 2,
+      "title": "Tenda 泰山 AX3000 Ultra 路由器 WiFi6 千兆穿墙王 AX12 Pro",
+      "price": "¥70.92",
+      "url": "https://www.smzdm.com/p/181639208/",
+      "image": "https://y.zdmimg.com/202602/04/6982df39e572e947.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 3,
+      "title": "Tenda 泰山BE7200 Ultra 路由器WiFi7千兆穿墙王 BE12 Pro",
+      "price": "¥258.76元（需用券）",
+      "url": "https://www.smzdm.com/p/181639440/",
+      "image": "https://y.zdmimg.com/202601/13/69657b1f09b607268.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 4,
+      "title": "国家补贴、今日必买：OPPO Find X8 Pro 卫星版 5G手机 16GB+1TB 星野黑",
+      "price": "¥3899元（需用券）",
+      "url": "https://www.smzdm.com/p/181636734/",
+      "image": "https://y.zdmimg.com/202507/12/68715f33dbd6e9567.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 5,
+      "title": "利民 额定1000W TR-KG1000 ATX3.1电源 原生PCIE5.1全模组电源",
+      "price": "¥373.53",
+      "url": "https://www.smzdm.com/p/181603997/",
+      "image": "https://y.zdmimg.com/202609/03/6a98e1c4109a48174.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 6,
+      "title": "菲天 iPhone苹果钢化膜 高端款 2片（带无尘仓）",
+      "price": "¥5.9元（需用券）",
+      "url": "https://www.smzdm.com/p/181643639/",
+      "image": "https://y.zdmimg.com/202608/30/6a941cad7018c5372.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 7,
+      "title": "Tenda 云霄BE5100 路由器WiFi7千兆穿墙王 BE6L Pro",
+      "price": "¥134.76元（需用券）",
+      "url": "https://www.smzdm.com/p/181639292/",
+      "image": "https://y.zdmimg.com/202507/08/686cd09b75a514738.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 8,
+      "title": "倍思 100W氮化镓折叠快充充电器",
+      "price": "¥50.2",
+      "url": "https://www.smzdm.com/p/181642152/",
+      "image": "https://y.zdmimg.com/202604/27/69ef11b17cea95944.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 9,
+      "title": "美加狮 TITAN 75 Turbo 电竞磁轴游戏键盘 有线连接客制化RT模式 电竞游戏办公 75键 浮光轴(赠鼠标垫或蝴蝶键帽)",
+      "price": "¥219元（需用券）",
+      "url": "https://www.smzdm.com/p/181634646/",
+      "image": "https://y.zdmimg.com/202609/03/6a994252ab8285761.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 10,
+      "title": "Tenda 疾速AX3000 Mesh分布式组网千兆穿墙王WiFi6+套装子母路由",
+      "price": "¥125.76",
+      "url": "https://www.smzdm.com/p/181640116/",
+      "image": "https://y.zdmimg.com/202608/14/6a7e80a3d40217440.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 11,
+      "title": "华为 MateView GT 27英寸 2K高刷电竞显示器",
+      "price": "¥781.63元（需用券）",
+      "url": "https://www.smzdm.com/p/181636239/",
+      "image": "https://y.zdmimg.com/202606/20/6a363d96a374e3408.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 12,
+      "title": "百亿补贴：中兴 BE3600Pro WiFi7 2.5G网口 无线路由器",
+      "price": "¥139",
+      "url": "https://www.smzdm.com/p/181645513/",
+      "image": "https://y.zdmimg.com/202607/08/6a4df102642555422.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 13,
+      "title": "百亿补贴：羽博 65W氮化镓三口PD快充充电器",
+      "price": "¥31.71",
+      "url": "https://www.smzdm.com/p/181639046/",
+      "image": "https://y.zdmimg.com/202607/17/6a599ac4044114550.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 14,
+      "title": "国家补贴：玩家战魂 京东自营RTX3050独显16英寸大屏 32G+1T大内存 2026新款电竞游戏本 大学生电脑",
+      "price": "¥5033.48",
+      "url": "https://www.smzdm.com/p/181636326/",
+      "image": "https://y.zdmimg.com/202512/04/693129439bfe14653.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 15,
+      "title": "国家补贴：中兴 自研芯片2.5G网口 WiFi7路由器 巡天BE3600Pro 青云版",
+      "price": "¥163.93元（需用券）",
+      "url": "https://www.smzdm.com/p/181640038/",
+      "image": "https://y.zdmimg.com/202602/27/69a1626d0e9cf7415.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
     {
       "platform": "jd",
       "platform_label": "京东",
@@ -17,7 +180,7 @@
       "price": "¥7999",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-1.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -28,8 +191,8 @@
       "price": "¥1299",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-2.jpg",
-      "trend": "up",
-      "change": 2
+      "trend": "same",
+      "change": 0
     },
     {
       "platform": "jd",
@@ -39,8 +202,8 @@
       "price": "¥2199",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-3.jpg",
-      "trend": "up",
-      "change": 1
+      "trend": "same",
+      "change": 0
     },
     {
       "platform": "jd",
@@ -50,8 +213,8 @@
       "price": "¥899",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-4.jpg",
-      "trend": "down",
-      "change": 1
+      "trend": "same",
+      "change": 0
     },
     {
       "platform": "jd",
@@ -72,8 +235,8 @@
       "price": "¥199",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-6.jpg",
-      "trend": "up",
-      "change": 3
+      "trend": "same",
+      "change": 0
     },
     {
       "platform": "jd",
@@ -83,8 +246,8 @@
       "price": "¥59.9",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-7.jpg",
-      "trend": "up",
-      "change": 5
+      "trend": "same",
+      "change": 0
     },
     {
       "platform": "jd",
@@ -94,8 +257,8 @@
       "price": "¥649",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-8.jpg",
-      "trend": "down",
-      "change": 2
+      "trend": "same",
+      "change": 0
     },
     {
       "platform": "jd",
@@ -105,8 +268,8 @@
       "price": "¥349",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-9.jpg",
-      "trend": "up",
-      "change": 1
+      "trend": "same",
+      "change": 0
     },
     {
       "platform": "jd",
@@ -116,228 +279,8 @@
       "price": "¥1899",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-10.jpg",
-      "trend": "new",
-      "change": 0
-    },
-    {
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "rank": 1,
-      "title": "优衣库 U系列 圆领纯棉T恤 男女同款",
-      "price": "¥79",
-      "url": "https://www.taobao.com/",
-      "image": "data/img/tb-1.jpg",
-      "trend": "up",
-      "change": 2
-    },
-    {
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "rank": 2,
-      "title": "花西子 空气蜜粉 定妆散粉 控油持妆",
-      "price": "¥149",
-      "url": "https://www.taobao.com/",
-      "image": "data/img/tb-2.jpg",
       "trend": "same",
       "change": 0
-    },
-    {
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "rank": 3,
-      "title": "三只松鼠 每日坚果 30包 混合装",
-      "price": "¥89",
-      "url": "https://www.taobao.com/",
-      "image": "data/img/tb-3.jpg",
-      "trend": "up",
-      "change": 4
-    },
-    {
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "rank": 4,
-      "title": "蕉下 冰丝防晒衣 UPF50+ 轻薄透气",
-      "price": "¥199",
-      "url": "https://www.taobao.com/",
-      "image": "data/img/tb-4.jpg",
-      "trend": "down",
-      "change": 1
-    },
-    {
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "rank": 5,
-      "title": "欧莱雅 玻尿酸充盈 安瓶精华 保湿",
-      "price": "¥259",
-      "url": "https://www.taobao.com/",
-      "image": "data/img/tb-5.jpg",
-      "trend": "up",
-      "change": 3
-    },
-    {
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "rank": 6,
-      "title": "小米 氮化镓充电器 67W 快充",
-      "price": "¥99",
-      "url": "https://www.taobao.com/",
-      "image": "data/img/tb-6.jpg",
-      "trend": "new",
-      "change": 0
-    },
-    {
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "rank": 7,
-      "title": "六神 花露水 195ml×2瓶 驱蚊清凉",
-      "price": "¥29.9",
-      "url": "https://www.taobao.com/",
-      "image": "data/img/tb-7.jpg",
-      "trend": "up",
-      "change": 6
-    },
-    {
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "rank": 8,
-      "title": "鸿星尔克 轻便透气运动跑鞋 男款",
-      "price": "¥159",
-      "url": "https://www.taobao.com/",
-      "image": "data/img/tb-8.jpg",
-      "trend": "down",
-      "change": 3
-    },
-    {
-      "platform": "pdd",
-      "platform_label": "拼多多",
-      "rank": 1,
-      "title": "无线蓝牙耳机 高音质降噪 运动款",
-      "price": "¥29.9",
-      "url": "https://www.pinduoduo.com/",
-      "image": "data/img/pdd-1.jpg",
-      "trend": "up",
-      "change": 5
-    },
-    {
-      "platform": "pdd",
-      "platform_label": "拼多多",
-      "rank": 2,
-      "title": "家用厨房置物架 多层落地收纳架",
-      "price": "¥45.9",
-      "url": "https://www.pinduoduo.com/",
-      "image": "data/img/pdd-2.jpg",
-      "trend": "new",
-      "change": 0
-    },
-    {
-      "platform": "pdd",
-      "platform_label": "拼多多",
-      "rank": 3,
-      "title": "手机支架 桌面可调节 懒人神器",
-      "price": "¥9.9",
-      "url": "https://www.pinduoduo.com/",
-      "image": "data/img/pdd-3.jpg",
-      "trend": "up",
-      "change": 2
-    },
-    {
-      "platform": "pdd",
-      "platform_label": "拼多多",
-      "rank": 4,
-      "title": "车载吸尘器 大吸力 无线便携",
-      "price": "¥79",
-      "url": "https://www.pinduoduo.com/",
-      "image": "data/img/pdd-4.jpg",
-      "trend": "up",
-      "change": 1
-    },
-    {
-      "platform": "pdd",
-      "platform_label": "拼多多",
-      "rank": 5,
-      "title": "夏季冰丝凉席 空调被 三件套",
-      "price": "¥59",
-      "url": "https://www.pinduoduo.com/",
-      "image": "data/img/pdd-5.jpg",
-      "trend": "down",
-      "change": 1
-    },
-    {
-      "platform": "pdd",
-      "platform_label": "拼多多",
-      "rank": 6,
-      "title": "洗衣凝珠 留香珠 持久留香 60颗",
-      "price": "¥19.9",
-      "url": "https://www.pinduoduo.com/",
-      "image": "data/img/pdd-6.jpg",
-      "trend": "up",
-      "change": 3
-    },
-    {
-      "platform": "smzdm",
-      "platform_label": "什么值得买",
-      "rank": 1,
-      "title": "京东PLUS 年卡会员 送免运费券",
-      "price": "¥148",
-      "url": "https://www.smzdm.com/top/",
-      "image": "data/img/smzdm-1.jpg",
-      "trend": "up",
-      "change": 2
-    },
-    {
-      "platform": "smzdm",
-      "platform_label": "什么值得买",
-      "rank": 2,
-      "title": "天猫超市 牛奶卡 88VIP 充值",
-      "price": "¥99",
-      "url": "https://www.smzdm.com/top/",
-      "image": "data/img/smzdm-2.jpg",
-      "trend": "down",
-      "change": 1
-    },
-    {
-      "platform": "smzdm",
-      "platform_label": "什么值得买",
-      "rank": 3,
-      "title": "星巴克 中杯拿铁 电子兑换券",
-      "price": "¥25",
-      "url": "https://www.smzdm.com/top/",
-      "image": "data/img/smzdm-3.jpg",
-      "trend": "same",
-      "change": 0
-    },
-    {
-      "platform": "smzdm",
-      "platform_label": "什么值得买",
-      "rank": 4,
-      "title": "Kindle 电子书 0.99元 特价专场",
-      "price": "¥0.99",
-      "url": "https://www.smzdm.com/top/",
-      "image": "data/img/smzdm-4.jpg",
-      "trend": "new",
-      "change": 0
-    },
-    {
-      "platform": "smzdm",
-      "platform_label": "什么值得买",
-      "rank": 5,
-      "title": "瑞幸 9.9元咖啡券 全国通用 囤货",
-      "price": "¥9.9",
-      "url": "https://www.smzdm.com/top/",
-      "image": "data/img/smzdm-5.jpg",
-      "trend": "up",
-      "change": 4
-    },
-    {
-      "platform": "smzdm",
-      "platform_label": "什么值得买",
-      "rank": 6,
-      "title": "小米手环9 NFC版 到手价",
-      "price": "¥229",
-      "url": "https://www.smzdm.com/top/",
-      "image": "data/img/smzdm-6.jpg",
-      "trend": "up",
-      "change": 1
     }
   ]
 }
