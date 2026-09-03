@@ -6,7 +6,7 @@
   多次快照之间出现的新商品、销量从 0 到 1（破0）、排名蹿升等，
   交给 analyze_new_products.py 做差分分析并打分。
 
-本脚本生成 2026-09-02 14:00 ~ 16:00 共 9 条快照，
+本脚本生成「最近 2 小时滚动窗口」内 9 条快照（每 15 分钟一条），
 包含 60 款处于不同起量阶段的潜力新品（淘宝 28 / 拼多多 22 / 京东 10），
 每款带 1688 同款搜索链接（供选品找工厂货源）。
 
@@ -45,7 +45,7 @@ ALI1688_URL = "https://s.1688.com/selloffer/offer_search.htm?keywords={kw}"
 #   id       : 唯一标识（np-平台-序号）
 #   platform : tb / pdd / jd
 #   pattern  : hot(强起量) / medium(中速) / slow(慢速) / observing(观察期, 未破0)
-#   appear   : 首次出现在快照序列的分钟偏移（相对 14:00）
+#   appear   : 首次出现在快照序列的分钟偏移（相对窗口起点）
 #   keywords : 1688 同款搜索关键词
 def _p(pid, platform, title, price, pattern, appear, kw):
     pl_label = {"tb": "淘宝", "pdd": "拼多多", "jd": "京东"}[platform]
