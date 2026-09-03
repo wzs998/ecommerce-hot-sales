@@ -26,8 +26,14 @@ from pathlib import Path
 CST = timezone(timedelta(hours=8))
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 SNAP_DIR = DATA_DIR / "snapshots"
-# 动态基准：以"当天 14:00"为演示窗口起点，日期随运行日期自动更新
-BASE_TIME = datetime.now(CST).replace(hour=14, minute=0, second=0, microsecond=0)
+# 滚动窗口：以"当前时刻所在 15 分钟格"为窗口终点，往前推 2 小时
+# 每次运行都会让监控窗口贴近"最近 2 小时"，更像实时监控
+def _rolling_base() -> datetime:
+    now = datetime.now(CST)
+    end = now.replace(minute=(now.minute // 15) * 15, second=0, microsecond=0)
+    return end - timedelta(hours=2)
+
+BASE_TIME = _rolling_base()
 SNAP_INTERVAL_MIN = 15
 
 # 1688 同款搜索链接模板
