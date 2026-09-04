@@ -1,50 +1,5 @@
 {
   "scraped_at": "2026-09-04T17:30:00+0800",
   "source": "mock",
-  "items": [
-    {
-      "id": "np-tb-1",
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "title": "无线蓝牙耳机 新升级降噪版",
-      "price": "¥79",
-      "image": "data/img/np-tb-1.jpg",
-      "sales": 0,
-      "rank": 76,
-      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%97%A0%E7%BA%BF%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA%20%E9%99%8D%E5%99%AA"
-    },
-    {
-      "id": "np-tb-5",
-      "platform": "tb",
-      "platform_label": "淘宝",
-      "title": "智能体重秤 体脂测量",
-      "price": "¥59",
-      "image": "data/img/np-tb-5.jpg",
-      "sales": 0,
-      "rank": 72,
-      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%99%BA%E8%83%BD%E4%BD%93%E8%84%82%E7%A7%A4"
-    },
-    {
-      "id": "np-pdd-3",
-      "platform": "pdd",
-      "platform_label": "拼多多",
-      "title": "车载手机支架 出风口",
-      "price": "¥15.9",
-      "image": "data/img/np-pdd-3.jpg",
-      "sales": 0,
-      "rank": 48,
-      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BD%A6%E8%BD%BD%E6%89%8B%E6%9C%BA%E6%94%AF%E6%9E%B6%20%E5%87%BA%E9%A3%8E%E5%8F%A3"
-    },
-    {
-      "id": "np-jd-1",
-      "platform": "jd",
-      "platform_label": "京东",
-      "title": "智能门锁 指纹人脸",
-      "price": "¥899",
-      "image": "data/img/np-jd-1.jpg",
-      "sales": 0,
-      "rank": 212,
-      "ali1688_url": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%99%BA%E8%83%BD%E9%97%A8%E9%94%81%20%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB"
-    }
-  ]
+  "items": []
 }
