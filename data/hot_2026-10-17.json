@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17 08:13:17 +0800",
+  "total": 25,
+  "sources": {
+    "smzdm": "live",
+    "jd": "mock"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "今日必买：苹果 iPhone 17 5G手机",
+      "price": "¥5099",
+      "url": "https://www.smzdm.com/p/184111550/",
+      "image": "https://y.zdmimg.com/202608/17/6a8283e8bf8c16204.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 2,
+      "title": "今日必买：苹果 iPhone Duo 仅支持 eSIM",
+      "price": "¥15999",
+      "url": "https://www.smzdm.com/p/184111527/",
+      "image": "https://y.zdmimg.com/202610/16/6ad21b23ff5cd3511.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 3,
+      "title": "今日必买、国家补贴：OPPO Find X9 智能手机 12GB+256GB",
+      "price": "¥2920",
+      "url": "https://www.smzdm.com/p/184087873/",
+      "image": "https://y.zdmimg.com/202610/16/6ad1a9b46e0124597.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 4,
+      "title": "国家补贴：荣耀 X80 Pro Max 手机  8+128",
+      "price": "¥1378.51元（需用券）",
+      "url": "https://www.smzdm.com/p/184108985/",
+      "image": "https://y.zdmimg.com/202606/26/6a3dfcc2464961782.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 5,
+      "title": "国家补贴、PLUS会员：红米 K100 Pro 5G手机 12GB+256GB 白色",
+      "price": "¥2846.68元（需用券）",
+      "url": "https://www.smzdm.com/p/184108753/",
+      "image": "https://y.zdmimg.com/202610/13/6acd9c5c75c4d2173.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 6,
+      "title": "小米 手环10Pro 2026新款智能手环运动健康防水睡眠心率全面屏长续航小米智能手环",
+      "price": "¥269.1元（需用券）",
+      "url": "https://www.smzdm.com/p/184113456/",
+      "image": "https://y.zdmimg.com/202610/15/6ad0929352f3d7416.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 7,
+      "title": "百亿补贴：酷态科 充电宝30W小巧便携电芯1万毫安电能块适用苹果18Pro小米",
+      "price": "¥58.8",
+      "url": "https://www.smzdm.com/p/184114425/",
+      "image": "https://y.zdmimg.com/202610/16/6ad233ee11b183953.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 8,
+      "title": "爱国者 2TB SSD固态硬盘 M.2接口NVMe协议 PCIe3.0 台式机笔记本通用P3000 读速3400MB/s",
+      "price": "¥1039元（需用券）",
+      "url": "https://www.smzdm.com/p/184111401/",
+      "image": "https://y.zdmimg.com/202511/08/690e50bd22ef9378.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 9,
+      "title": "国家补贴：华为 WATCH GT 7 Pro 蓝宝石玻璃 智能手表  46mm",
+      "price": "¥1796.22元（需用券）",
+      "url": "https://www.smzdm.com/p/184109334/",
+      "image": "https://y.zdmimg.com/202609/09/6aa0f899dc6766118.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 10,
+      "title": "今日必买：学而思 全新培优旗舰T6 AI学习机 13.9英寸 8GB+256GB",
+      "price": "¥6266.51",
+      "url": "https://www.smzdm.com/p/184111521/",
+      "image": "https://y.zdmimg.com/202610/16/6ad21ae7df95f3470.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 11,
+      "title": "华硕 ROG 超杀27 二代 XG27ACDMSR 26.5英寸2K电竞显示器320Hz显示器0.03ms响应HDR500真10Bit OLED 2代",
+      "price": "¥2833.14元（需用券）",
+      "url": "https://www.smzdm.com/p/184117742/",
+      "image": "https://y.zdmimg.com/202610/17/6ad24e3af9627954.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 12,
+      "title": "国家补贴：荣耀 平板GT 8+256G 平板电脑",
+      "price": "¥1359.17元（需用券）",
+      "url": "https://www.smzdm.com/p/184112283/",
+      "image": "https://y.zdmimg.com/202509/26/68d6169a799741932.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 13,
+      "title": "今日必买：学而思 全新培优旗舰T6国际版 8GB+256GB 13.9英寸 学习平板",
+      "price": "¥8057.51",
+      "url": "https://www.smzdm.com/p/184111596/",
+      "image": "https://y.zdmimg.com/202610/16/6ad23fe71bfeb5339.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 14,
+      "title": "国家补贴：机械革命 无界14X （ R7 H 255 16G 512G 80Wh 60Hz  灰)办公笔记本电脑轻薄游戏本",
+      "price": "¥3691.81元（需用券）",
+      "url": "https://www.smzdm.com/p/184109195/",
+      "image": "https://y.zdmimg.com/202509/26/68d60db1419bf9766.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 15,
+      "title": "联想拯救者 Lenovo/联想拯救者Y900 13 英寸 TB522FU 平板电脑 AI学习游戏平板   8+256",
+      "price": "¥1940元（需用券）",
+      "url": "https://www.smzdm.com/p/184111103/",
+      "image": "https://y.zdmimg.com/202610/16/6ad217279fa762363.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 1,
+      "title": "Apple iPhone 16 Pro 256GB 原色钛金属 5G手机",
+      "price": "¥7999",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-1.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 2,
+      "title": "小米 智能门锁 Pro 指纹锁 C级锁芯 全自动",
+      "price": "¥1299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-2.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 3,
+      "title": "美的 变频空调 大1.5匹 新一级能效 智能语音",
+      "price": "¥2199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-3.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 4,
+      "title": "华为 FreeBuds Pro 4 无线蓝牙耳机 降噪",
+      "price": "¥899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-4.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 5,
+      "title": "联想拯救者 Y9000P 电竞游戏本 16英寸",
+      "price": "¥9299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-5.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 6,
+      "title": "格力 电风扇 落地扇 家用静音遥控",
+      "price": "¥199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-6.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 7,
+      "title": "蒙牛特仑苏 纯牛奶 250ml×16盒 整箱",
+      "price": "¥59.9",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-7.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 8,
+      "title": "罗技 MX Master 3S 无线蓝牙鼠标 静音",
+      "price": "¥649",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-8.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 9,
+      "title": "苏泊尔 电饭煲 4L 球釜 智能预约",
+      "price": "¥349",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-9.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 10,
+      "title": "海信 55英寸 4K超高清 智能网络电视",
+      "price": "¥1899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-10.jpg",
+      "trend": "same",
+      "change": 0
+    }
+  ]
+}
