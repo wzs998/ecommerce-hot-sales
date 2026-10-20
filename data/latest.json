@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19 08:00:11 +0800",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20 08:58:15 +0800",
   "total": 25,
   "sources": {
     "smzdm": "live",
@@ -9,10 +9,10 @@
   "items": [
     {
       "rank": 1,
-      "title": "苹果 AirPods 5 主动降噪版 无线蓝牙耳机  白色",
-      "price": "¥740.58元（需用券）",
-      "url": "https://www.smzdm.com/p/184216013/",
-      "image": "https://y.zdmimg.com/202609/10/6aa1e78a00ceb1627.jpg_a200.jpg",
+      "title": "华为 WATCH GT 6 Pro 蓝牙版 智能手表",
+      "price": "¥1184.98",
+      "url": "https://www.smzdm.com/p/184283658/",
+      "image": "https://y.zdmimg.com/202510/10/68e87d05f6f4a9915.png_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -20,10 +20,10 @@
     },
     {
       "rank": 2,
-      "title": "华为 WATCH FIT 5 智能运动手表",
-      "price": "¥577.1元（需用券）",
-      "url": "https://www.smzdm.com/p/184211089/",
-      "image": "https://y.zdmimg.com/202610/15/6ad0930b0ae236731.png_a200.jpg",
+      "title": "小米 Watch S5 智能手表",
+      "price": "¥731.66元（需用券）",
+      "url": "https://www.smzdm.com/p/184284627/",
+      "image": "https://y.zdmimg.com/202603/19/69bbc8ec47a4f5733.png_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -31,20 +31,9 @@
     },
     {
       "rank": 3,
-      "title": "今日必买：苹果 iPhone 17 5G手机 8GB+256GB 青雾蓝色",
-      "price": "¥5170.51",
-      "url": "https://www.smzdm.com/p/184215905/",
-      "image": "https://y.zdmimg.com/202610/18/6ad4d632ee9308231.jpg_a200.jpg",
-      "platform": "smzdm",
-      "platform_label": "什么值得买",
-      "trend": "new",
-      "change": 0
-    },
-    {
-      "rank": 4,
-      "title": "大疆 Osmo Action 5 Pro 运动相机",
+      "title": "今日必买：大疆 Osmo Action 5 Pro 运动相机",
       "price": "¥1664.3元（需用券）",
-      "url": "https://www.smzdm.com/p/184216204/",
+      "url": "https://www.smzdm.com/p/184283872/",
       "image": "https://y.zdmimg.com/202507/08/686cc7446e6209918.jpg_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
@@ -52,11 +41,22 @@
       "change": 0
     },
     {
+      "rank": 4,
+      "title": "国家补贴：荣耀 Magic9超能版 12+512",
+      "price": "¥3808",
+      "url": "https://www.smzdm.com/p/184220156/",
+      "image": "https://y.zdmimg.com/202610/19/6ad55a3d634758952.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
       "rank": 5,
-      "title": "OPPO Find X9 Pro 5G手机 12GB+512GB 霜白",
-      "price": "¥3129",
-      "url": "https://www.smzdm.com/p/184221157/",
-      "image": "https://y.zdmimg.com/202601/29/697b72b68ca071443.png_a200.jpg",
+      "title": "索尼 Alpha 7C II 含2860镜头 全画幅微单相机 AI智能芯片 a7c2l",
+      "price": "¥8724.06元（需用券）",
+      "url": "https://www.smzdm.com/p/184283902/",
+      "image": "https://y.zdmimg.com/202601/30/697b9050f29608515.jpg_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -64,10 +64,10 @@
     },
     {
       "rank": 6,
-      "title": "苹果 iPhone 18 Pro Max 5G手机 256GB  勃艮第酒红色",
-      "price": "¥9401.9",
-      "url": "https://www.smzdm.com/p/184221271/",
-      "image": "https://y.zdmimg.com/202609/10/6aa1e56b7fa4a9537.jpg_a200.jpg",
+      "title": "索尼 Alpha 7C II 超值镜头套装（含2860镜头）A7C2黑色 全画幅微单相机 AI智能芯片 创意滤镜 A7C2L",
+      "price": "¥8824.09元（需用券）",
+      "url": "https://www.smzdm.com/p/184281473/",
+      "image": "https://y.zdmimg.com/202601/30/697b905d520896396.jpg_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -75,10 +75,10 @@
     },
     {
       "rank": 7,
-      "title": "国家补贴、今日必买：苹果 AirPods Pro (第三代) 搭配MagSafe充电盒 (USB-C)蓝牙耳机 适用iPhone/iPad/Mac MFHP4CH/A",
-      "price": "¥1316.65",
-      "url": "https://www.smzdm.com/p/184214281/",
-      "image": "https://y.zdmimg.com/202601/29/697b6a6b8c8a03857.jpg_a200.jpg",
+      "title": "国家补贴：OPPO 新品上市OPPO Find X9 Pro哈苏2亿超清长焦镜头Live oppo手机官方oppofindx9pro",
+      "price": "¥3990",
+      "url": "https://www.smzdm.com/p/184283015/",
+      "image": "https://y.zdmimg.com/202601/29/697b72acce5839741.png_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -86,10 +86,10 @@
     },
     {
       "rank": 8,
-      "title": "华为 Mate 80 Pro Max 手机 16GB+512GB 极光青",
-      "price": "¥4969",
-      "url": "https://www.smzdm.com/p/184221172/",
-      "image": "https://y.zdmimg.com/202601/30/697b96e15ebdd2661.png_a200.jpg",
+      "title": "百亿补贴：酷态科 CP13电能块自带线电芯10000毫安时容量便携适用苹果小米",
+      "price": "¥63.6",
+      "url": "https://www.smzdm.com/p/184284966/",
+      "image": "https://y.zdmimg.com/202510/29/6901cb4bd4e983138.jpg_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -97,10 +97,10 @@
     },
     {
       "rank": 9,
-      "title": "华为 WATCH GT7 情绪监测 蓝牙通话 智能手表 樱语粉",
-      "price": "¥912.98",
-      "url": "https://www.smzdm.com/p/184211492/",
-      "image": "https://y.zdmimg.com/202610/11/6aca662d0db604992.jpg_a200.jpg",
+      "title": "一加 15T 第五代骁龙8至尊版 智能手机 16+256GB",
+      "price": "¥3519",
+      "url": "https://www.smzdm.com/p/184281983/",
+      "image": "https://y.zdmimg.com/202603/25/69c38ec858dba1030.jpg_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -108,10 +108,10 @@
     },
     {
       "rank": 10,
-      "title": "苹果 iPhone 17 5G手机 8GB+256GB 白色",
-      "price": "¥5170.51",
-      "url": "https://www.smzdm.com/p/184218389/",
-      "image": "https://y.zdmimg.com/202601/29/697b71a21b3756898.png_a200.jpg",
+      "title": "MIUI/小米 Xiaomi 17 Max手机新品新款上市小米徕卡联合研发小米17max手机",
+      "price": "¥3549",
+      "url": "https://www.smzdm.com/p/184282863/",
+      "image": "https://y.zdmimg.com/202610/19/6ad61ae5ddc3e7274.png_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -119,10 +119,10 @@
     },
     {
       "rank": 11,
-      "title": "HKC 猎鹰二代 G27H2Pro 27英寸 IPS G-sync FreeSync 显示器（2560×1440、200Hz、95%DCI-P3、HDR400）",
-      "price": "¥370.89元（需用券）",
-      "url": "https://www.smzdm.com/p/184216027/",
-      "image": "https://y.zdmimg.com/202507/08/686d03996ef711623.jpg_a200.jpg",
+      "title": "国家补贴、百亿补贴：华为 WATCH 5 ECG心电分析 智能手表 42mm 幻月黑",
+      "price": "¥1123.78",
+      "url": "https://www.smzdm.com/p/184282200/",
+      "image": "https://y.zdmimg.com/202506/12/684a11f2676cc6900.png_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -130,10 +130,10 @@
     },
     {
       "rank": 12,
-      "title": "雷蛇 毒蝰 V3 Pro 专业版 2.4G双模无线鼠标 30000DPI 黑色",
-      "price": "¥606.48",
-      "url": "https://www.smzdm.com/p/184217454/",
-      "image": "https://y.zdmimg.com/202507/08/686d237b9f7733851.jpg_a200.jpg",
+      "title": "OPPO Find X10 Pro Max 哈苏影像系统 5G手机",
+      "price": "¥6099元（需用券）",
+      "url": "https://www.smzdm.com/p/184282731/",
+      "image": "https://y.zdmimg.com/202609/22/6ab27a2f5158a842.jpg_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -141,10 +141,10 @@
     },
     {
       "rank": 13,
-      "title": "国家补贴、PLUS会员：苹果 iPhone 17 5G手机 8GB+256GB 薰衣草紫色",
-      "price": "¥5269.01元（需用券）",
-      "url": "https://www.smzdm.com/p/184211501/",
-      "image": "https://y.zdmimg.com/202601/29/697b71ab46f4c3187.png_a200.jpg",
+      "title": "苹果 iPhone 17 5G手机",
+      "price": "¥5199",
+      "url": "https://www.smzdm.com/p/184284902/",
+      "image": "https://y.zdmimg.com/202608/17/6a8283e8bf8c16204.png_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -152,10 +152,10 @@
     },
     {
       "rank": 14,
-      "title": "国家补贴：真我 GT8 Pro 5G手机 2K 144Hz苍穹屏 2亿大底潜望镜头 Q10+发光材料 布鲁 12GB+256GB",
-      "price": "¥2519.15",
-      "url": "https://www.smzdm.com/p/184221248/",
-      "image": "https://y.zdmimg.com/202601/29/697b6b1cf538e9768.png_a200.jpg",
+      "title": "百亿补贴：哈曼卡顿 琉璃5代音乐蓝牙设计音箱颜值灯光音响低音炮家用桌面",
+      "price": "¥1430.1元（需用券）",
+      "url": "https://www.smzdm.com/p/184277891/",
+      "image": "https://y.zdmimg.com/202610/19/6ad60ab73350a9832.jpg_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -163,10 +163,10 @@
     },
     {
       "rank": 15,
-      "title": "雷柏 VT3s V2版 PAW3950光学引擎 黑色 无线/有线双模游戏鼠标",
-      "price": "¥161.1",
-      "url": "https://www.smzdm.com/p/184214235/",
-      "image": "https://y.zdmimg.com/202610/18/6ad4bf1b40e4c5192.jpg_a200.jpg",
+      "title": "索尼 Alpha 7 IV 全画幅 微单相机",
+      "price": "¥10369.15",
+      "url": "https://www.smzdm.com/p/184286565/",
+      "image": "https://y.zdmimg.com/202510/27/68ff8833789f44059.jpg_a200.jpg",
       "platform": "smzdm",
       "platform_label": "什么值得买",
       "trend": "new",
@@ -180,7 +180,7 @@
       "price": "¥7999",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-1.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -191,7 +191,7 @@
       "price": "¥1299",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-2.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -202,7 +202,7 @@
       "price": "¥2199",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-3.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -213,7 +213,7 @@
       "price": "¥899",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-4.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -224,7 +224,7 @@
       "price": "¥9299",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-5.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -235,7 +235,7 @@
       "price": "¥199",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-6.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -246,7 +246,7 @@
       "price": "¥59.9",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-7.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -257,7 +257,7 @@
       "price": "¥649",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-8.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -268,7 +268,7 @@
       "price": "¥349",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-9.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -279,7 +279,7 @@
       "price": "¥1899",
       "url": "https://www.jd.com/",
       "image": "data/img/jd-10.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     }
   ]
