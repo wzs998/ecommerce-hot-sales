@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30 09:44:00 +0800",
+  "total": 25,
+  "sources": {
+    "smzdm": "live",
+    "jd": "mock"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "百亿补贴：酷态科 CP6电能充Mini 67W低温快充 手机充电器",
+      "price": "¥49.4元（需用券）",
+      "url": "https://www.smzdm.com/p/185007915/",
+      "image": "https://y.zdmimg.com/202610/29/6ae35e68f063d559.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 2,
+      "title": "罗技 大师系列MX MASTER 3S 菁英版  石墨黑",
+      "price": "¥260.09",
+      "url": "https://www.smzdm.com/p/185009853/",
+      "image": "https://y.zdmimg.com/202510/23/68f9f86e855b38399.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 3,
+      "title": "苹果 iPhone 17 5G手机",
+      "price": "¥4529",
+      "url": "https://www.smzdm.com/p/185006234/",
+      "image": "https://y.zdmimg.com/202608/17/6a8283e8bf8c16204.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 4,
+      "title": "华为 FreeClip 2 耳夹式多单元动圈蓝牙耳机",
+      "price": "¥802.1",
+      "url": "https://www.smzdm.com/p/185010667/",
+      "image": "https://y.zdmimg.com/202601/29/697b6b081dd7d5890.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 5,
+      "title": "大疆 Osmo Pocket 4P 运动相机 经典黑 103GB 标准套装",
+      "price": "¥3229.15",
+      "url": "https://www.smzdm.com/p/185013235/",
+      "image": "https://y.zdmimg.com/202606/17/6a31f6cfa51f31919.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 6,
+      "title": "华为 FreeClip 耳夹耳机 不入耳开放式蓝牙耳机",
+      "price": "¥514.1",
+      "url": "https://www.smzdm.com/p/185009869/",
+      "image": "https://y.zdmimg.com/202508/04/6890a47d515654642.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "up",
+      "change": 2
+    },
+    {
+      "rank": 7,
+      "title": "努比亚 Z80 Ultra  16+512 魅影黑",
+      "price": "¥3577元（需用券）",
+      "url": "https://www.smzdm.com/p/185013335/",
+      "image": "https://y.zdmimg.com/202610/30/6ae3dcfade8176375.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 8,
+      "title": "百亿补贴：任天堂 Switch2游戏主机港版NS2掌机新款二代便携体感家用游戏机塞尔达限定",
+      "price": "¥2650",
+      "url": "https://www.smzdm.com/p/185008872/",
+      "image": "https://y.zdmimg.com/202610/29/6ae30f4e3bbfa3820.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 9,
+      "title": "PLUS会员：腾达 泰山AX3000 Ultra 千兆WiFi6家用路由器",
+      "price": "¥71.12元（需用券）",
+      "url": "https://www.smzdm.com/p/185008879/",
+      "image": "https://y.zdmimg.com/202602/04/6982df3909121947.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 10,
+      "title": "华为 FreeClip 耳夹耳机 不入耳开放式蓝牙耳机",
+      "price": "¥578.05",
+      "url": "https://www.smzdm.com/p/185014667/",
+      "image": "https://y.zdmimg.com/202610/30/6ae38db5cd2d28019.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "down",
+      "change": 2
+    },
+    {
+      "rank": 11,
+      "title": "C 【裸机手感】官方Beats二合一 iPhone11-18系列苹果手机壳",
+      "price": "¥9.9元（需用券）",
+      "url": "https://www.smzdm.com/p/185008995/",
+      "image": "https://y.zdmimg.com/202609/10/6aa26727cffa43606.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 12,
+      "title": "苹果 AirPods Pro 3 入耳式降噪蓝牙耳机 白色",
+      "price": "¥1121.06元（需用券）",
+      "url": "https://www.smzdm.com/p/185012984/",
+      "image": "https://y.zdmimg.com/202601/29/697b6a6b8c8a03857.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 13,
+      "title": "全民K歌 全民 超长续航 便携式无线音箱麦克风套装",
+      "price": "¥267.6元（需用券）",
+      "url": "https://www.smzdm.com/p/185007226/",
+      "image": "https://y.zdmimg.com/202512/14/693de2beea7563621.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 14,
+      "title": "国家补贴：小天才 Z7Pro 4G全网通楼层定位儿童智能手表",
+      "price": "¥759.9",
+      "url": "https://www.smzdm.com/p/185008314/",
+      "image": "https://y.zdmimg.com/202607/15/6a56faf44a35b6421.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 15,
+      "title": "大疆 OSMO Pocket 3 手持云台相机 旋转屏 便携 vlog 标准套装",
+      "price": "¥1903.15元（需用券）",
+      "url": "https://www.smzdm.com/p/185005535/",
+      "image": "https://y.zdmimg.com/202601/29/697b6c74255ca5733.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 1,
+      "title": "Apple iPhone 16 Pro 256GB 原色钛金属 5G手机",
+      "price": "¥7999",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-1.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 2,
+      "title": "小米 智能门锁 Pro 指纹锁 C级锁芯 全自动",
+      "price": "¥1299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-2.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 3,
+      "title": "美的 变频空调 大1.5匹 新一级能效 智能语音",
+      "price": "¥2199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-3.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 4,
+      "title": "华为 FreeBuds Pro 4 无线蓝牙耳机 降噪",
+      "price": "¥899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-4.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 5,
+      "title": "联想拯救者 Y9000P 电竞游戏本 16英寸",
+      "price": "¥9299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-5.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 6,
+      "title": "格力 电风扇 落地扇 家用静音遥控",
+      "price": "¥199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-6.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 7,
+      "title": "蒙牛特仑苏 纯牛奶 250ml×16盒 整箱",
+      "price": "¥59.9",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-7.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 8,
+      "title": "罗技 MX Master 3S 无线蓝牙鼠标 静音",
+      "price": "¥649",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-8.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 9,
+      "title": "苏泊尔 电饭煲 4L 球釜 智能预约",
+      "price": "¥349",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-9.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 10,
+      "title": "海信 55英寸 4K超高清 智能网络电视",
+      "price": "¥1899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-10.jpg",
+      "trend": "same",
+      "change": 0
+    }
+  ]
+}
