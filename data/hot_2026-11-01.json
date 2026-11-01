@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01 08:48:55 +0800",
+  "total": 25,
+  "sources": {
+    "smzdm": "live",
+    "jd": "mock"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "淘金币可用：苹果 iPhone 18 Pro Max 5G手机 256GB",
+      "price": "¥9899元（淘金币后9569.03元）",
+      "url": "https://www.smzdm.com/p/185085784/",
+      "image": "https://y.zdmimg.com/202610/28/6ae1c1c7db6878068.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "rank": 2,
+      "title": "荣耀 WIN RT 5G手机 12GB+256GB 快开黑",
+      "price": "¥2130",
+      "url": "https://www.smzdm.com/p/185175439/",
+      "image": "https://y.zdmimg.com/202610/31/6ae5f2fe33e592516.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 3,
+      "title": "国家补贴、88VIP：惠普 HyperX暗影精灵Pro15暗影精灵Ultra7 255H高性能电竞游戏本170",
+      "price": "¥8549",
+      "url": "https://www.smzdm.com/p/185174924/",
+      "image": "https://y.zdmimg.com/202610/31/6ae5b4f3543605949.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 4,
+      "title": "百亿补贴：酷态科 65W 2C1A 氮化镓充电器 AD653C",
+      "price": "¥47.8",
+      "url": "https://www.smzdm.com/p/185176664/",
+      "image": "https://qny.smzdm.com/202311/20/655af5976a21b8412.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 5,
+      "title": "漫步者 S880 MKII HIFI有源2.0音箱 白色",
+      "price": "¥673.16",
+      "url": "https://www.smzdm.com/p/185082724/",
+      "image": "https://y.zdmimg.com/202507/08/686cc516a8cf91273.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 6,
+      "title": "小米 MIUI/小米 REDMI K100 Pro Max",
+      "price": "¥2887.24元（需用券）",
+      "url": "https://www.smzdm.com/p/185176468/",
+      "image": "https://y.zdmimg.com/202610/31/6ae5ece302e5d2917.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 7,
+      "title": "酷态科 CP12磁吸电能块 移动电源 10000mAh 22.5W快充 磁吸 自带线 银滩白",
+      "price": "¥56.99元（需用券）",
+      "url": "https://www.smzdm.com/p/185175063/",
+      "image": "https://y.zdmimg.com/202601/30/697b956365add9010.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 8,
+      "title": "百亿补贴：酷态科 10号电能基站 万象屏单屏+7号电池2粒",
+      "price": "¥102",
+      "url": "https://www.smzdm.com/p/185176237/",
+      "image": "https://y.zdmimg.com/202610/31/6ae587a2f31482444.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 9,
+      "title": "小天才 Z9Pro 楼层定位 SIM版 暮光紫 儿童电话手表",
+      "price": "¥1444.15元（需用券）",
+      "url": "https://www.smzdm.com/p/185175102/",
+      "image": "https://y.zdmimg.com/202604/03/69cf845af3bf89488.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 10,
+      "title": "全民K歌 全民 超长续航 便携式无线音箱麦克风套装",
+      "price": "¥248.28元（需买2件，需用券）",
+      "url": "https://www.smzdm.com/p/185174403/",
+      "image": "https://y.zdmimg.com/202512/14/693de2beea7563621.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 11,
+      "title": "国家补贴：小天才 Q3A AI精准定位 SIM版 凇蓝 儿童电话手表",
+      "price": "¥398.65元（需用券）",
+      "url": "https://www.smzdm.com/p/185174422/",
+      "image": "https://y.zdmimg.com/202601/29/697b75f520068335.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 12,
+      "title": "华为 Mate 80 Pro Max 风驰版 手机 16GB+512GB 极昼金",
+      "price": "¥6218.78",
+      "url": "https://www.smzdm.com/p/185174746/",
+      "image": "https://y.zdmimg.com/202603/23/69c0fb0ab0f119799.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 13,
+      "title": "华为 WATCH FIT 4 Pro 智能手表 44.5mm 海岛蓝 氟橡胶表带（北斗、GPS、血氧）",
+      "price": "¥695.45元（需用券）",
+      "url": "https://www.smzdm.com/p/185178892/",
+      "image": "https://y.zdmimg.com/202508/08/6895c8feda78c7236.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 14,
+      "title": "C 【裸机手感】官方Beate二合一 iPhone11-18系列苹果手机壳",
+      "price": "¥9.9元（需用券）",
+      "url": "https://www.smzdm.com/p/185174312/",
+      "image": "https://y.zdmimg.com/202609/21/6ab123e8bb0cc4017.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 15,
+      "title": "小米 MIX Flip 2 12GB+256GB 折叠屏手机 星云紫",
+      "price": "¥2378.93",
+      "url": "https://www.smzdm.com/p/185172214/",
+      "image": "https://y.zdmimg.com/202509/29/68da4fd83f6482503.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 1,
+      "title": "Apple iPhone 16 Pro 256GB 原色钛金属 5G手机",
+      "price": "¥7999",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-1.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 2,
+      "title": "小米 智能门锁 Pro 指纹锁 C级锁芯 全自动",
+      "price": "¥1299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-2.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 3,
+      "title": "美的 变频空调 大1.5匹 新一级能效 智能语音",
+      "price": "¥2199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-3.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 4,
+      "title": "华为 FreeBuds Pro 4 无线蓝牙耳机 降噪",
+      "price": "¥899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-4.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 5,
+      "title": "联想拯救者 Y9000P 电竞游戏本 16英寸",
+      "price": "¥9299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-5.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 6,
+      "title": "格力 电风扇 落地扇 家用静音遥控",
+      "price": "¥199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-6.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 7,
+      "title": "蒙牛特仑苏 纯牛奶 250ml×16盒 整箱",
+      "price": "¥59.9",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-7.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 8,
+      "title": "罗技 MX Master 3S 无线蓝牙鼠标 静音",
+      "price": "¥649",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-8.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 9,
+      "title": "苏泊尔 电饭煲 4L 球釜 智能预约",
+      "price": "¥349",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-9.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 10,
+      "title": "海信 55英寸 4K超高清 智能网络电视",
+      "price": "¥1899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-10.jpg",
+      "trend": "same",
+      "change": 0
+    }
+  ]
+}
