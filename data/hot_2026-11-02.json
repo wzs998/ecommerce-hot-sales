@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02 09:22:02 +0800",
+  "total": 25,
+  "sources": {
+    "smzdm": "live",
+    "jd": "mock"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "小米 10 Pro 智能手环",
+      "price": "¥204.86元（需用券）",
+      "url": "https://www.smzdm.com/p/185234386/",
+      "image": "https://y.zdmimg.com/202605/21/6a0e7480aaa2e7253.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 2,
+      "title": "今日必买：苹果 iPhone 18 Pro Max 智能手机 256GB",
+      "price": "¥9899元（返积分叠淘金币后9679.02元）",
+      "url": "https://www.smzdm.com/p/185170113/",
+      "image": "https://y.zdmimg.com/202610/18/6ad4152996a834025.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 3,
+      "title": "百亿补贴：酷态科 6号 Mini 90W氮化镓充电器 水云蓝 +7号电池2粒",
+      "price": "¥56.2",
+      "url": "https://www.smzdm.com/p/185233819/",
+      "image": "https://y.zdmimg.com/202610/31/6ae5edde6b9b56077.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 4,
+      "title": "苹果 iPhone 17 Pro Max 智能手机 256GB",
+      "price": "¥8149元返2500积分叠淘金币7949.02",
+      "url": "https://www.smzdm.com/p/185092807/",
+      "image": "https://y.zdmimg.com/202601/29/697b727b8a96d2032.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 5,
+      "title": "淘金币可用：小米 17 Ultra 徕卡版 智能手机 徕卡联合研发 16GB+512GB",
+      "price": "¥6799元（返2000积分后，淘金币后6567.21元）",
+      "url": "https://www.smzdm.com/p/185105269/",
+      "image": "https://y.zdmimg.com/202610/31/6ae58280e8ad16329.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 6,
+      "title": "88VIP：小米 Watch S5 智能手表 黑色",
+      "price": "¥635.43",
+      "url": "https://www.smzdm.com/p/185237184/",
+      "image": "https://y.zdmimg.com/202603/19/69bbc8ec47a4f5733.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 7,
+      "title": "苹果 iPhone 18 Pro 5G手机 256GB",
+      "price": "¥8929元返积分叠淘金币后8729.02",
+      "url": "https://www.smzdm.com/p/185171976/",
+      "image": "https://y.zdmimg.com/202610/18/6ad4152996a834025.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 8,
+      "title": "今日必买：大疆 Osmo Pocket 4P 运动相机 经典黑 103GB 标准套装",
+      "price": "¥3229.15",
+      "url": "https://www.smzdm.com/p/185234290/",
+      "image": "https://y.zdmimg.com/202611/01/6ae73deabe0af7008.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 9,
+      "title": "苹果 iPhone 17 5G手机 8GB+256GB 青雾蓝色",
+      "price": "¥5067.58元（需用券）",
+      "url": "https://www.smzdm.com/p/185234996/",
+      "image": "https://y.zdmimg.com/202601/29/697b71b25c8956431.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 10,
+      "title": "今日必买：苹果 需签收激活 苹果iPhone 18 Pro Max 512GB 冰川蓝色 支持移动联通电信5G支持eSIM联通补贴",
+      "price": "¥11914.01元（需用券）",
+      "url": "https://www.smzdm.com/p/185236276/",
+      "image": "https://y.zdmimg.com/202611/01/6ae6d656e58cd7545.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 11,
+      "title": "今日必买：OPPO Pad Mini （8GB、256GB）",
+      "price": "¥2583.45元（需用券）",
+      "url": "https://www.smzdm.com/p/185235633/",
+      "image": "https://y.zdmimg.com/202611/01/6ae6b891cad778490.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 12,
+      "title": "88VIP：紫光闪存 S2 ULtra NVMe M.2 固态硬盘（PCI-E4.0）",
+      "price": "¥889.05元（需用券）",
+      "url": "https://www.smzdm.com/p/185235501/",
+      "image": "https://y.zdmimg.com/202406/15/666d8b528c0783552.png_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 13,
+      "title": "PLUS会员：vivo Y600Pro 10200mAh蓝海电池 星曜紫 8GB+128GB 5G手机",
+      "price": "¥1376.05元（需用券）",
+      "url": "https://www.smzdm.com/p/185236314/",
+      "image": "https://y.zdmimg.com/202611/01/6ae74871638a24737.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 14,
+      "title": "酷开 27K16 4K超清 27英寸 3840×2160 黑色 显示器",
+      "price": "¥610.2",
+      "url": "https://www.smzdm.com/p/185233847/",
+      "image": "https://y.zdmimg.com/202603/17/69b910ed2dff17962.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "rank": 15,
+      "title": "酷态科 充电宝 CP24电能块 自带线40W 20000毫安时 星云灰",
+      "price": "¥82.79元（需用券）",
+      "url": "https://www.smzdm.com/p/185237798/",
+      "image": "https://y.zdmimg.com/202507/07/686be7a574f303986.jpg_a200.jpg",
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "trend": "new",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 1,
+      "title": "Apple iPhone 16 Pro 256GB 原色钛金属 5G手机",
+      "price": "¥7999",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-1.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 2,
+      "title": "小米 智能门锁 Pro 指纹锁 C级锁芯 全自动",
+      "price": "¥1299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-2.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 3,
+      "title": "美的 变频空调 大1.5匹 新一级能效 智能语音",
+      "price": "¥2199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-3.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 4,
+      "title": "华为 FreeBuds Pro 4 无线蓝牙耳机 降噪",
+      "price": "¥899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-4.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 5,
+      "title": "联想拯救者 Y9000P 电竞游戏本 16英寸",
+      "price": "¥9299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-5.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 6,
+      "title": "格力 电风扇 落地扇 家用静音遥控",
+      "price": "¥199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-6.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 7,
+      "title": "蒙牛特仑苏 纯牛奶 250ml×16盒 整箱",
+      "price": "¥59.9",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-7.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 8,
+      "title": "罗技 MX Master 3S 无线蓝牙鼠标 静音",
+      "price": "¥649",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-8.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 9,
+      "title": "苏泊尔 电饭煲 4L 球釜 智能预约",
+      "price": "¥349",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-9.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 10,
+      "title": "海信 55英寸 4K超高清 智能网络电视",
+      "price": "¥1899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-10.jpg",
+      "trend": "same",
+      "change": 0
+    }
+  ]
+}
