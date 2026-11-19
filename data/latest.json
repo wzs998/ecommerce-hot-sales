@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18 11:27:23 +0800",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19 10:59:55 +0800",
   "total": 16,
   "sources": {
     "smzdm": "mock",
@@ -15,7 +15,7 @@
       "price": "¥148",
       "url": "https://www.smzdm.com/top/",
       "image": "data/img/smzdm-1.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -26,7 +26,7 @@
       "price": "¥99",
       "url": "https://www.smzdm.com/top/",
       "image": "data/img/smzdm-2.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -37,7 +37,7 @@
       "price": "¥25",
       "url": "https://www.smzdm.com/top/",
       "image": "data/img/smzdm-3.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -48,7 +48,7 @@
       "price": "¥0.99",
       "url": "https://www.smzdm.com/top/",
       "image": "data/img/smzdm-4.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -59,7 +59,7 @@
       "price": "¥9.9",
       "url": "https://www.smzdm.com/top/",
       "image": "data/img/smzdm-5.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {
@@ -70,7 +70,7 @@
       "price": "¥229",
       "url": "https://www.smzdm.com/top/",
       "image": "data/img/smzdm-6.jpg",
-      "trend": "new",
+      "trend": "same",
       "change": 0
     },
     {

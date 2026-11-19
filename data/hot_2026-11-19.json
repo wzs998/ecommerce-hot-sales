@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19 10:59:55 +0800",
+  "total": 16,
+  "sources": {
+    "smzdm": "mock",
+    "jd": "mock"
+  },
+  "items": [
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 1,
+      "title": "京东PLUS 年卡会员 送免运费券",
+      "price": "¥148",
+      "url": "https://www.smzdm.com/top/",
+      "image": "data/img/smzdm-1.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 2,
+      "title": "天猫超市 牛奶卡 88VIP 充值",
+      "price": "¥99",
+      "url": "https://www.smzdm.com/top/",
+      "image": "data/img/smzdm-2.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 3,
+      "title": "星巴克 中杯拿铁 电子兑换券",
+      "price": "¥25",
+      "url": "https://www.smzdm.com/top/",
+      "image": "data/img/smzdm-3.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 4,
+      "title": "Kindle 电子书 0.99元 特价专场",
+      "price": "¥0.99",
+      "url": "https://www.smzdm.com/top/",
+      "image": "data/img/smzdm-4.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 5,
+      "title": "瑞幸 9.9元咖啡券 全国通用 囤货",
+      "price": "¥9.9",
+      "url": "https://www.smzdm.com/top/",
+      "image": "data/img/smzdm-5.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "smzdm",
+      "platform_label": "什么值得买",
+      "rank": 6,
+      "title": "小米手环9 NFC版 到手价",
+      "price": "¥229",
+      "url": "https://www.smzdm.com/top/",
+      "image": "data/img/smzdm-6.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 1,
+      "title": "Apple iPhone 16 Pro 256GB 原色钛金属 5G手机",
+      "price": "¥7999",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-1.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 2,
+      "title": "小米 智能门锁 Pro 指纹锁 C级锁芯 全自动",
+      "price": "¥1299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-2.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 3,
+      "title": "美的 变频空调 大1.5匹 新一级能效 智能语音",
+      "price": "¥2199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-3.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 4,
+      "title": "华为 FreeBuds Pro 4 无线蓝牙耳机 降噪",
+      "price": "¥899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-4.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 5,
+      "title": "联想拯救者 Y9000P 电竞游戏本 16英寸",
+      "price": "¥9299",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-5.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 6,
+      "title": "格力 电风扇 落地扇 家用静音遥控",
+      "price": "¥199",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-6.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 7,
+      "title": "蒙牛特仑苏 纯牛奶 250ml×16盒 整箱",
+      "price": "¥59.9",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-7.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 8,
+      "title": "罗技 MX Master 3S 无线蓝牙鼠标 静音",
+      "price": "¥649",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-8.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 9,
+      "title": "苏泊尔 电饭煲 4L 球釜 智能预约",
+      "price": "¥349",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-9.jpg",
+      "trend": "same",
+      "change": 0
+    },
+    {
+      "platform": "jd",
+      "platform_label": "京东",
+      "rank": 10,
+      "title": "海信 55英寸 4K超高清 智能网络电视",
+      "price": "¥1899",
+      "url": "https://www.jd.com/",
+      "image": "data/img/jd-10.jpg",
+      "trend": "same",
+      "change": 0
+    }
+  ]
+}
